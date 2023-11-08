@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--*V2*-->
+    <!--Idenfy Splash Screen V2-->
+    <string name="idenfy_splash_screen_title_v2">Quick and reliable identity verification</string>
+
+    <!--Idenfy Privacy Policy View V2-->
+    <string name="idenfy_privacy_policy_title_v2">Privacy policy</string>
+    <string name="idenfy_privacy_policy_agree_button_title_v2">AGREE</string>
+    <string name="idenfy_privacy_policy_disagree_button_title_v2">DISAGREE</string>
+    <string name="idenfy_privacy_policy_alert_title_v2">INFORMATION</string>
+    <string name="idenfy_privacy_policy_alert_description_v2">To continue the process, you must agree to the rules. If you do not agree, cancel the verification process or close the window.</string>
+    <string name="idenfy_privacy_policy_alert_agree_button_title_v2">I WANT TO AGREE</string>
+    <string name="idenfy_privacy_policy_alert_cancel_button_title_v2">CANCEL VERIFICATION</string>
+
+    <!--Idenfy Questionnaire View V2-->
+    <string name="idenfy_questionnaire_continue_button_title_v2">CONTINUE</string>
+    <string name="idenfy_questionnaire_email_error_message_v2">Please enter a valid email!</string>
+    <string name="idenfy_questionnaire_url_error_message_v2">Please enter a valid website address!</string>
+    <string name="idenfy_questionnaire_tel_error_message_v2">Please enter a valid phone number!</string>
+
+    <!--Idenfy Provider Selection View V2-->
+    <string name="idenfy_provider_selection_common_information_title_v2">Please select your provider</string>
+    <string name="idenfy_provider_selection_common_information_description_v2">Please select your utility bill provider from the list below</string>
+    <string name="idenfy_provider_selection_search_bar_hint_title_v2">Search for a provider…</string>
+
+    <!--Idenfy Provider Login View V2-->
+    <string name="idenfy_provider_login_view_common_information_title_v2">Connect your account</string>
+    <string name="idenfy_provider_login_view_common_information_description_v2">Enter your login information for your online utility account</string>
+    <string name="idenfy_provider_login_view_username_hint_title_v2">Username</string>
+    <string name="idenfy_provider_login_view_password_hint_title_v2">Password</string>
+    <string name="idenfy_provider_login_view_continue_button_title_v2">CONTINUE</string>
+    <string name="idenfy_provider_login_view_login_retry_title_v2">Invalid credentials</string>
+    <string name="idenfy_provider_login_view_login_retry_description_v2">Please enter valid credentials and try again!</string>
+    <string name="idenfy_provider_login_view_login_failed_title_v2">Login failed</string>
+    <string name="idenfy_provider_login_view_login_failed_description_v2">We were not able to log you in…</string>
+
+    <!--Idenfy MFA Method Selection View V2-->
+    <string name="idenfy_mfa_method_selection_view_title_v2">Account verification</string>
+    <string name="idenfy_mfa_method_selection_view_description_v2">Please select your desired authentication method from the options below</string>
+    <string name="idenfy_mfa_method_selection_view_mfa_hint_title_v2">Authentication Method</string>
+    <string name="idenfy_mfa_method_selection_view_mfa_method_code_title_v2">One time password</string>
+    <string name="idenfy_mfa_method_selection_view_mfa_method_security_question_title_v2">Security question and answer</string>
+    <string name="idenfy_mfa_method_selection_view_continue_button_title_v2">CONTINUE</string>
+
+    <!--Idenfy MFA Captcha Method View V2-->
+    <string name="idenfy_mfa_captcha_method_title_v2">Authenticate yourself</string>
+    <string name="idenfy_mfa_captcha_method_description_v2">Please enter the captcha code you see in the picture below</string>
+    <string name="idenfy_mfa_captcha_method_code_hint_v2">Captcha code</string>
+    <string name="idenfy_mfa_captcha_method_continue_button_title_v2">CONTINUE</string>
+
+    <!--Idenfy MFA General View V2-->
+    <string name="idenfy_mfa_code_method_title_v2">Authenticate yourself</string>
+    <string name="idenfy_mfa_code_method_description_v2">Please enter the code you have received to your phone or by email</string>
+    <string name="idenfy_mfa_code_method_code_hint_v2">Authentication code</string>
+    <string name="idenfy_mfa_question_method_title_v2">Please answer the question provided below</string>
+    <string name="idenfy_mfa_question_method_answer_hint_v2">Your answer</string>
+    <string name="idenfy_mfa_notification_method_title_v2">Please verify access through your provider\'s application</string>
+    <string name="idenfy_mfa_notification_method_description_v2">When you\'re done, press the continue button</string>
+    <string name="idenfy_mfa_pass_code_method_title_v2">Authenticate yourself</string>
+    <string name="idenfy_mfa_pass_code_method_description_v2">Please enter the passcode you have set up with your utility provider</string>
+    <string name="idenfy_mfa_pass_code_method_code_hint_v2">Passcode</string>
+    <string name="idenfy_mfa_general_view_continue_button_title_v2">CONTINUE</string>
+
+    <!--Idenfy Start Identification Predefined View V2-->
+    <string name="idenfy_start_identification_predefined_view_information_title_v2">Start identity verification</string>
+    <string name="idenfy_start_identification_predefined_view_information_description_v2">Document country of issue</string>
+    <string name="idenfy_start_identification_predefined_view_begin_identification_button_v2">Let\'s begin</string>
+
+    <!--Idenfy Country Selection View V2-->
+    <string name="idenfy_country_selection_view_information_title_v2">Select issuing country</string>
+    <string name="idenfy_country_selection_view_information_description_v2">Please choose the country where your document was issued</string>
+    <string name="idenfy_country_selection_view_searchbar_hint_v2">Search document\'s country…</string>
+
+    <!--Idenfy Language Selection View V2-->
+    <string name="idenfy_language_selection_view_information_title_v2">Select a language</string>
+
+    <!--Idenfy Documents Selection View V2-->
+    <string name="idenfy_documents_selection_view_continue_button_title_v2">CONTINUE</string>
+    <string name="idenfy_documents_selection_view_information_title_v2">Select a document</string>
+    <string name="idenfy_documents_selection_view_information_description_v2">Which document type would you want to identify?</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_passport_title_v2">Passport</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_id_card_title_v2">Identity Card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_other_title_v2">Other</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_driver_licence_title_v2">Driver\'s License</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_residence_permit_titlev2">Residence Permit</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_visa_title_v2">Visa</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_border_crossing_title_v2">Border Crossing Card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_asylum_title_v2">Asylum Residence Permit</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_national_passport_title_v2">National Passport</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_provisional_driver_license_title_v2">Provisional Driver License</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_voter_card_title_v2">Voter Card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_old_id_card_title_v2">Old ID Card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_travel_card_title_v2">Travel Card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_photo_card_title_v2">Photo Card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_military_card_title_v2">Military (Veteran) Card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_proof_of_age_card_title_v2">Proof Of Age Card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_diplomatic_id_card_title_v2">Diplomatic ID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_pan_card_title_v2">PAN card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_aadhaar_card_title_v2">Aadhaar card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_address_card_title_v2">Address card</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_social_security_card_title_v2">Social security card</string>
+
+    <!--Idenfy Confirmation View V2-->
+    <string name="idenfy_confirmation_view_information_title_v2">Confirm document type</string>
+    <string name="idenfy_confirmation_view_information_description_type_id_card_description_placeholder_v2">Please have your **identity card** ready to identify</string>
+    <string name="idenfy_confirmation_view_information_description_type_passport_description_placeholder_v2">Please have your **passport** ready to identify</string>
+    <string name="idenfy_confirmation_view_information_description_type_residence_permit_placeholder_v2">Please have your **residence permit** ready to identify</string>
+    <string name="idenfy_confirmation_view_information_description_type_driver_licence_placeholder_v2">Please have your **driver\'s license** ready to identify</string>
+    <string name="idenfy_confirmation_view_information_description_type_other_placeholder_v2">Please have your **document** ready to identify</string>
+    <string name="idenfy_confirmation_view_information_description_part_1_v2">Please have your</string>
+    <string name="idenfy_confirmation_view_information_document_type_id_card_description_part_2_v2">identity card</string>
+    <string name="idenfy_confirmation_view_information_document_type_passport_description_part_2_v2">passport</string>
+    <string name="idenfy_confirmation_view_information_document_type_residence_permit_description_part_2_v2">residence permit</string>
+    <string name="idenfy_confirmation_view_information_document_type_driver_licence_description_part_2_v2">driver\'s license</string>
+    <string name="idenfy_confirmation_view_information_document_type_other_description_part_2_v2">document</string>
+    <string name="idenfy_confirmation_view_information_document_type_visa_description_part_2_v2">visa</string>
+    <string name="idenfy_confirmation_view_information_document_type_border_crossing_description_part_2_v2">border crossing card</string>
+    <string name="idenfy_confirmation_view_information_document_type_asylum_description_part_2_v2">asylum residence permit</string>
+    <string name="idenfy_confirmation_view_information_document_type_national_passport_description_part_2_v2">national passport</string>
+    <string name="idenfy_confirmation_view_information_document_type_provisional_driver_license_description_part_2_v2">provisional driver license</string>
+    <string name="idenfy_confirmation_view_information_document_type_voter_card_description_part_2_v2">voter card</string>
+    <string name="idenfy_confirmation_view_information_document_old_id_card_description_part_2_v2">old ID card</string>
+    <string name="idenfy_confirmation_view_information_document_travel_card_description_part_2_v2">travel card</string>
+    <string name="idenfy_confirmation_view_information_document_photo_card_description_part_2_v2">photo card</string>
+    <string name="idenfy_confirmation_view_information_document_military_card_description_part_2_v2">military (veteran) card</string>
+    <string name="idenfy_confirmation_view_information_proof_of_age_card_description_part_2_v2">proof of age card</string>
+    <string name="idenfy_confirmation_view_information_diplomatic_id_card_description_part_2_v2">diplomatic ID</string>
+    <string name="idenfy_confirmation_view_information_pan_card_description_part_2_v2">PAN card</string>
+    <string name="idenfy_confirmation_view_information_aadhaar_card_description_part_2_v2">aadhaar card</string>
+    <string name="idenfy_confirmation_view_information_address_card_description_part_2_v2">address card</string>
+    <string name="idenfy_confirmation_view_information_social_security_card_description_part_2_v2">social security card</string>
+    <string name="idenfy_confirmation_view_information_description_part_3_v2">ready to identify</string>
+    <string name="idenfy_confirmation_view_document_steps_title_part_placeholder_v2">Verification will take **5** steps:</string> <!--placeholder-->
+    <string name="idenfy_confirmation_view_document_steps_title_part_1_v2">Verification will take</string>
+    <string name="idenfy_confirmation_view_document_steps_title_part_2_v2">5</string>  <!--dynamic value-->
+    <string name="idenfy_confirmation_view_document_steps_title_part_3_v2">steps:</string>
+    <string name="idenfy_confirmation_view_document_steps_step_front_title_v2">Document front photo</string>
+    <string name="idenfy_confirmation_view_document_steps_step_back_title_v2">Document back photo</string>
+    <string name="idenfy_confirmation_view_document_steps_step_face_title_v2">Face photo</string>
+    <string name="idenfy_confirmation_view_document_steps_step_liveliness_title_v2">Liveness check</string>
+    <string name="idenfy_confirmation_view_document_steps_step_passport_cover_title_v2">Passport cover photo</string>
+    <string name="idenfy_confirmation_view_document_steps_step_proof_of_address_title_v2">Proof of address document photo</string>
+    <string name="idenfy_confirmation_view_document_steps_step_second_proof_of_address_title_v2">Second proof of address document photo</string>
+    <string name="idenfy_confirmation_view_upload_image_title_v2">You can upload photos in every step</string>
+    <string name="idenfy_confirmation_view_begin_identification_title_v2">CONTINUE</string>
+
+    <!--Idenfy Camera OnBoarding View V2-->
+    <string name="idenfy_camera_onboarding_view_continue_button_title_v2">CONTINUE</string>
+    <string name="idenfy_camera_onboarding_view_continue_disabled_button_title_v2">CONTINUE IN **x** …</string>
+    <string name="idenfy_camera_onboarding_view_liveness_instructions_description_part_1">Make sure you are in the bright environment</string>
+    <string name="idenfy_camera_onboarding_view_liveness_instructions_description_part_2">Click «I\'m Ready» when prompted and follow the instructions</string>
+    <string name="idenfy_camera_onboarding_view_liveness_instructions_description_part_3">You will need to move closer or away from the camera to complete this check</string>
+
+    <!--Idenfy Camera Static OnBoarding View V2-->
+    <string name="idenfy_camera_static_onboarding_view_face_instructions_title">Please follow the instructions below:</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_title">Make sure the picture of your selected document is:</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_trusted_partner_title">Place your document to fit all angles into the frame:</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_description_part_1">Clearly visible and NOT Blurry</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_description_part_2">Well lit and not Covered by a shadow</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_description_part_3">Not covered by the reflection of light/glare</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_description_part_4">Not blocked by a finger and fits the white frame</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_description_part_5">An original document and not a copy of it</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_trusted_partner_document_description_part_1">Check if your device’s camera is clean, not blurry</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_trusted_partner_document_description_part_2">Turn off the camera flash to prevent reflections</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_trusted_partner_document_description_part_3">Ensure good lighting to avoid glare or shadow</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_trusted_partner_document_description_part_4">Hold the document steadily without covering its data</string>
+    <string name="idenfy_camera_static_onboarding_view_instructions_trusted_partner_document_description_part_5">Do not cover document corners with your fingers</string>
+
+    <!--Idenfy Document Camera Preview Session View V2-->
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_id_card_title_v2">Front of identity card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_id_card_title_v2">Back of identity card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_other_title_v2">Front of document</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_other_title_v2">Back of document</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_residence_permit_title_v2">Front of residence permit</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_residence_permit_title_v2">Back of residence permit</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_driver_license_title_v2">Front of driver\'s license</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_driver_license_title_v2">Back of driver\'s license</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_cover_title_v2">Front of passport cover</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_passport_title_v2">Passport face page</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_address_title_v2">Proof of address</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_second_proof_of_address_title_v2">Second proof of address</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_visa_title_v2">Front of visa</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_visa_title_v2">Back of visa</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_border_crossing_title_v2">Front of border crossing card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_border_crossing_title_v2">Back of border crossing card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_asylum_title_v2">Front of Asylum residence permit</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_asylum_title_v2">Back of Asylum residence permit</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_national_passport_title_v2">Front of national passport</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_national_passport_title_v2">Back of national passport</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_provisional_driver_license_title_v2">Front of provisional driver license</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_provisional_driver_license_title_v2">Back of provisional driver license</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_voter_card_title_v2">Front of voter card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_voter_card_title_v2">Back of voter card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_old_id_card_title_v2">Front of old ID card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_old_id_card_title_v2">Back of old ID card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_travel_card_title_v2">Front of travel card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_travel_card_title_v2">Back of travel card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_photo_card_title_v2">Front of photo card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_photo_card_title_v2">Back of photo card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_military_card_title_v2">Front of military (veteran) card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_military_card_title_v2">Back of military (veteran) card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_proof_of_age_card_title_v2">Front of proof of age card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_proof_of_age_card_title_v2">Back of proof of age card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_diplomatic_id_card_title_v2">Front of diplomatic ID</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_diplomatic_id_card_title_v2">Back of diplomatic ID</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_pan_card_title_v2">Front of PAN card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_pan_card_title_v2">Back of PAN card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_aadhaar_card_title_v2">Front of aadhaar card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_aadhaar_card_title_v2">Back of aadhaar card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_address_card_title_v2">Front of address card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_front_document_type_social_security_card_title_v2">Front of social security card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_step_back_document_type_social_security_card_title_v2">Back of social security card</string>
+    <string name="idenfy_document_camera_preview_session_view_information_description_v2">Place your document into the frame and take a clear photo</string>
+    <string name="idenfy_document_camera_preview_session_view_information_auto_capture_description_v2">Place your document into the frame and wait for it to be scanned</string>
+    <string name="idenfy_document_camera_preview_session_view_details_upload_file_type_alert_title_v2_default">Please choose a file type</string>
+    <string name="idenfy_document_camera_preview_session_view_details_upload_file_type_alert_description_v2_default">Which file type would you like to upload?</string>
+    <string name="idenfy_document_camera_preview_session_view_details_upload_image_file_type_alert_title_v2_default">Photo</string>
+    <string name="idenfy_document_camera_preview_session_view_details_upload_pdf_file_type_alert_title_v2_default">PDF</string>
+    <string name="idenfy_document_and_face_camera_preview_session_information_instructions_dialog_title">How to identify?</string>
+    <string name="idenfy_document_and_face_camera_preview_session_information_instructions_dialog_button_title">SKIP INSTRUCTIONS</string>
+    <string name="idenfy_document_and_face_camera_preview_session_information_instructions_dialog_face_description">Make sure your selfie is clearly visible and fits the white frame</string>
+    <string name="idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_1">Make sure the light source is in front and not behind you</string>
+    <string name="idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_2">Make sure the picture of your selected document is: Clearly visible and NOT Blurry</string>
+    <string name="idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_3">Make sure the picture of your selected document is: Well lit and not Covered by a shadow</string>
+    <string name="idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_4">Make sure the picture of your selected document is: Not covered by the reflection of light/glare</string>
+    <string name="idenfy_document_and_face_camera_preview_session_information_instructions_dialog_description_part_5">Make sure the picture of your selected document is: Not blocked by a finger and fits the white frame</string>
+    <string name="idenfy_document_trusted_partner_preview_session_information_instructions_dialog_description_part_1">Check if your device’s camera is clean, not blurry</string>
+    <string name="idenfy_document_trusted_partner_preview_session_information_instructions_dialog_description_part_2">Turn off the camera flash to prevent reflections</string>
+    <string name="idenfy_document_trusted_partner_preview_session_information_instructions_dialog_description_part_3">Ensure good lighting to avoid glare or shadow</string>
+    <string name="idenfy_document_trusted_partner_preview_session_information_instructions_dialog_description_part_4">Hold the document steadily without covering its data</string>
+    <string name="idenfy_document_trusted_partner_preview_session_information_instructions_dialog_description_part_5">Do not cover document corners with your fingers</string>
+    <string name="idenfy_document_angle_detection_start_button_description">Press the capture button to record your document</string>
+    <string name="idenfy_document_angle_detection_position_models_description">Position your document to fit the moving frame</string>
+    <string name="idenfy_document_angle_detection_time_out_alert_title">Session expired</string>
+    <string name="idenfy_document_angle_detection_time_out_alert_description">You’ve exceeded document recording time. Try again.</string>
+    <string name="idenfy_document_angle_detection_time_out_alert_retry_button">Retry</string>
+
+    <!--Idenfy Document Camera Results View V2-->
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_id_card_title_v2">Front of identity card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_id_card_title_v2">Back of identity card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_other_title_v2">Front of document</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_other_title_v2">Back of document</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_title_v2">Front of residence permit</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_title_v2">Back of residence permit</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_driver_license_title_v2">Front of driver\'s license</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_driver_license_title_v2">Back of driver\'s license</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_title_v2">Front of passport cover</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_passport_title_v2">Passport face page</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_title_v2">Proof of address</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_title_v2">Second proof of address</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_visa_title_v2">Front of visa</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_visa_title_v2">Back of visa</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_border_crossing_title_v2">Front of border crossing card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_border_crossing_title_v2">Back of border crossing card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_asylum_title_v2">Front of Asylum residence permit</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_asylum_title_v2">Back of Asylum residence permit</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_national_passport_title_v2">Front of national passport</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_national_passport_title_v2">Back of national passport</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_provisional_driver_license_title_v2">Front of provisional driver license</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_provisional_driver_license_title_v2">Back of provisional driver license</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_voter_card_title_v2">Front of voter card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_voter_card_title_v2">Back of voter card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_old_id_card_title_v2">Front of old ID card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_old_id_card_title_v2">Back of old ID card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_travel_card_title_v2">Front of travel card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_travel_card_title_v2">Back of travel card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_photo_card_title_v2">Front of photo card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_photo_card_title_v2">Back of photo card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_military_card_title_v2">Front of military (veteran) card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_military_card_title_v2">Back of military (veteran) card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_proof_of_age_card_title_v2">Front of proof of age card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_proof_of_age_card_title_v2">Back of proof of age card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_diplomatic_id_card_title_v2">Front of diplomatic ID</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_diplomatic_id_card_title_v2">Back of diplomatic ID</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_pan_card_title_v2">Front of PAN card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_pan_card_title_v2">Back of PAN card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_aadhaar_card_title_v2">Front of aadhaar card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_aadhaar_card_title_v2">Back of aadhaar card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_address_card_title_v2">Front of address card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_social_security_card_title_v2">Front of social security card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_social_security_card_title_v2">Back of social security card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_placeholder_v2">Is your **front of identity card** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_placeholder_v2">Is your **back of identity card** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_other_description_placeholder_v2">Is your **front of document** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_other_description_placeholder_v2">Is your **back of document** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_placeholder_v2">Is your **front of residence permit** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_placeholder_v2">Is your **back of residence permit** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_placeholder_v2">Is your **front of driver\'s license** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_placeholder_v2">Is your **back of driver\'s license** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_placeholder_v2">Is your **front of passport cover** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_placeholder_v2">Is your **proof of address** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_placeholder_v2">Is your **second proof of address** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_passport_description_placeholder_v2">Is your **passport face page** clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_description_part_1_v2">Is your</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_part_2_v2">front of identity card</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_part_2_v2">back of identity card</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_other_description_part_2_v2">front of document</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_other_description_part_2_v2">back of document</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_residence_permit_description_part_2_v2">front of residence permit</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_residence_permit_description_part_2_v2">back of residence permit</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_driver_license_description_part_2_v2">front of driver\'s license</string>
+    <string name="idenfy_document_camera_results_view_information_step_back_document_type_driver_license_description_part_2_v2">back of driver\'s license</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_passport_cover_description_part_2_v2">front of passport cover</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_proof_of_address_description_part_2_v2">proof of address</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_second_proof_of_address_description_part_2_v2">second proof of address</string>
+    <string name="idenfy_document_camera_results_view_information_step_front_document_type_passport_description_part_2_v2">passport face page</string>
+    <string name="idenfy_document_camera_results_view_information_description_part_3_v2">clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_details_first_title_v2_front">Is the picture of your face clearly visible?</string>
+    <string name="idenfy_document_camera_results_view_details_second_title_v2_front">Can you clearly read the details of the document?</string>
+    <string name="idenfy_document_camera_results_view_details_first_title_v2_back">Is it the back of the document?</string>
+    <string name="idenfy_document_camera_results_view_details_second_title_v2_back">Can you clearly read the details of the document?</string>
+    <string name="idenfy_document_camera_results_view_details_title_v2_default">Can you clearly read the details of the document?</string>
+    <string name="idenfy_document_camera_results_view_details_pdf_title_v2_default">Are you sure you want to upload this file?</string>
+
+    <!--Idenfy Face Camera Preview Session View V2-->
+    <string name="idenfy_face_camera_preview_session_description_v2">Place your face into the marked area and take a clear photo</string>
+    <string name="idenfy_face_camera_preview_title_v2">Take your face photo</string>
+
+    <!--Idenfy Face Camera Results View V2-->
+    <string name="idenfy_face_camera_results_title_v2">Confirm face photo</string>
+    <string name="idenfy_face_camera_results_description_v2">Is your face photo clearly visible and in the frame?</string>
+    <string name="idenfy_document_camera_results_view_information_step_face_description_placeholder_v2">Is your **face photo** clearly visible and in the frame?</string>
+    <string name="idenfy_face_camera_results_view_details_first_title_v2">Is your face clearly visible and close enough for inspection?</string>
+
+    <!--Idenfy Document And Face Results View V2-->
+    <string name="idenfy_document_and_face_camera_results_title_v2">Inspect photo</string>
+    <string name="idenfy_document_and_face_camera_results_powered_by_idenfy_card_title_v2">Powered by iDenfy</string>
+    <string name="idenfy_document_and_face_camera_results_button_retake_photo_title_v2">TAKE A NEW PHOTO</string>
+    <string name="idenfy_document_and_face_camera_results_button_next_step_title_v2">YES, CONTINUE</string>
+
+    <!--Upload document photo V2-->
+    <string name="idenfy_upload_results_view_information_step_front_document_type_id_card_title_v2">Front of identity card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_id_card_title_v2">Back of identity card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_other_title_v2">Front of document</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_other_title_v2">Back of document</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_residence_permit_title_v2">Front of residence permit</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_residence_permit_title_v2">Back of residence permit</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_driver_license_title_v2">Front of driver\'s license</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_driver_license_title_v2">Back of driver\'s license</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_passport_cover_title_v2">Front of passport cover</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_passport_title_v2">Passport face page</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_proof_of_address_title_v2">Proof of address</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_second_proof_of_address_title_v2">Second proof of address</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_visa_title_v2">Front of visa</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_visa_title_v2">Back of visa</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_border_crossing_title_v2">Front of border crossing card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_border_crossing_title_v2">Back of border crossing card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_asylum_title_v2">Front of Asylum residence permit</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_asylum_title_v2">Back of Asylum residence permit</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_national_passport_title_v2">Front of national passport</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_national_passport_title_v2">Back of national passport</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_provisional_driver_license_title_v2">Front of provisional driver license</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_provisional_driver_license_title_v2">Back of provisional driver license</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_voter_card_title_v2">Front of voter card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_voter_card_title_v2">Back of voter card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_old_id_card_title_v2">Front of old ID card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_old_id_card_title_v2">Back of old ID card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_travel_card_title_v2">Front of travel card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_travel_card_title_v2">Back of travel card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_photo_card_title_v2">Front of photo card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_photo_card_title_v2">Back of photo card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_military_card_title_v2">Front of military (veteran) card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_military_card_title_v2">Back of military (veteran) card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_proof_of_age_card_title_v2">Front of proof of age card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_proof_of_age_card_title_v2">Back of proof of age card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_diplomatic_id_card_title_v2">Front of diplomatic ID</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_diplomatic_id_card_title_v2">Back of diplomatic ID</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_pan_card_title_v2">Front of PAN card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_pan_card_title_v2">Back of PAN card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_aadhaar_card_title_v2">Front of aadhaar card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_aadhaar_card_title_v2">Back of aadhaar card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_address_card_title_v2">Front of address card</string>
+    <string name="idenfy_upload_results_view_information_step_front_document_type_social_security_card_title_v2">Front of social security card</string>
+    <string name="idenfy_upload_results_view_information_step_back_document_type_social_security_card_title_v2">Back of social security card</string>
+    <string name="idenfy_upload_results_view_information_step_face_title_v2">Confirm face photo</string>
+    <string name="idenfy_upload_results_view_cropping_description_v2">Align uploaded photo into the marked area</string>
+    <string name="idenfy_upload_results_view_choose_another_photo_button_title_v2">CHOOSE ANOTHER ONE</string>
+    <string name="idenfy_upload_results_view_document_continue_button_title_v2">CONTINUE</string>
+    <string name="idenfy_upload_results_view_pdf_size_alert_title_v2">Maximum file size exceeded</string>
+    <string name="idenfy_upload_results_view_pdf_size_alert_message_v2">Please select a file with a valid size no larger than 5MB</string>
+    <string name="idenfy_upload_results_view_incorrect_mime_type_alert_title_v2">Unsupported file type</string>
+    <string name="idenfy_upload_results_view_incorrect_mime_type_alert_message_v2">Supported file types:</string>
+    <string name="idenfy_upload_results_view_failed_to_upload_file_title_v2">Upload failure</string>
+    <string name="idenfy_upload_results_view_failed_to_upload_file_description_v2">We were not able to upload the selected file. Please try again!</string>
+
+    <!--Idenfy Identification Results View V2-->
+    <string name="idenfy_identification_results_identification_status_loading_title_v2">Analysing your verification…</string>
+    <string name="idenfy_identification_results_identification_status_loading_description_v2">Please wait while we set things up for you!</string>
+    <string name="idenfy_identification_results_identification_status_error_title_v2">Verification failed</string>
+    <string name="idenfy_identification_results_step_front_document_type_id_card_title_v2">Front of identity card</string>
+    <string name="idenfy_identification_results_step_back_document_type_id_card_title_v2">Back of identity card</string>
+    <string name="idenfy_identification_results_step_passport_cover_title_v2">Front of passport cover</string>
+    <string name="idenfy_identification_results_step_proof_of_address_title_v2">Proof of address</string>
+    <string name="idenfy_identification_results_step_second_proof_of_address_title_v2">Second proof of address</string>
+    <string name="idenfy_identification_results_step_front_document_type_passport_title_v2">Passport face page</string>
+    <string name="idenfy_identification_results_step_front_document_type_other_title_v2">Front of document</string>
+    <string name="idenfy_identification_results_step_back_document_type_other_title_v2">Back of document</string>
+    <string name="idenfy_identification_results_step_front_document_type_residence_permit_title_v2">Front of residence permit</string>
+    <string name="idenfy_identification_results_step_back_document_type_residence_permit_title_v2">Back of residence permit</string>
+    <string name="idenfy_identification_results_step_front_document_type_driver_license_title_v2">Front of driver\'s license</string>
+    <string name="idenfy_identification_results_step_back_document_type_driver_license_title_v2">Back of driver\'s license</string>
+    <string name="idenfy_identification_results_step_front_document_type_visa_title_v2">Front of visa</string>
+    <string name="idenfy_identification_results_step_back_document_type_visa_title_v2">Back of visa</string>
+    <string name="idenfy_identification_results_step_front_document_type_border_crossing_title_v2">Front of border crossing card</string>
+    <string name="idenfy_identification_results_step_back_document_type_border_crossing_title_v2">Back of border crossing card</string>
+    <string name="idenfy_identification_results_step_front_document_type_asylum_title_v2">Front of Asylum residence permit</string>
+    <string name="idenfy_identification_results_step_back_document_type_asylum_title_v2">Back of Asylum residence permit</string>
+    <string name="idenfy_identification_results_step_front_document_type_national_passport_title_v2">Front of national passport</string>
+    <string name="idenfy_identification_results_step_back_document_type_national_passport_title_v2">Back of national passport</string>
+    <string name="idenfy_identification_results_step_front_document_type_provisional_driver_license_title_v2">Front of provisional driver license</string>
+    <string name="idenfy_identification_results_step_back_document_type_provisional_driver_license_title_v2">Back of provisional driver license</string>
+    <string name="idenfy_identification_results_step_front_document_type_voter_card_title_v2">Front of voter card</string>
+    <string name="idenfy_identification_results_step_back_document_type_voter_card_title_v2">Back of voter card</string>
+    <string name="idenfy_identification_results_step_front_document_type_old_id_card_title_v2">Front of old ID card</string>
+    <string name="idenfy_identification_results_step_back_document_type_old_id_card_title_v2">Back of old ID card</string>
+    <string name="idenfy_identification_results_step_front_document_type_travel_card_title_v2">Front of travel card</string>
+    <string name="idenfy_identification_results_step_back_document_type_travel_card_title_v2">Back of travel card</string>
+    <string name="idenfy_identification_results_step_front_document_type_photo_card_title_v2">Front of photo card</string>
+    <string name="idenfy_identification_results_step_back_document_type_photo_card_title_v2">Back of photo card</string>
+    <string name="idenfy_identification_results_step_front_document_type_military_card_title_v2">Front of military (veteran) card</string>
+    <string name="idenfy_identification_results_step_back_document_type_military_card_title_v2">Back of military (veteran) card</string>
+    <string name="idenfy_identification_results_step_front_document_type_proof_of_age_card_title_v2">Front of proof of age card</string>
+    <string name="idenfy_identification_results_step_back_document_type_proof_of_age_card_title_v2">Back of proof of age card</string>
+    <string name="idenfy_identification_results_step_front_document_type_diplomatic_id_card_title_v2">Front of diplomatic ID</string>
+    <string name="idenfy_identification_results_step_back_document_type_diplomatic_id_card_title_v2">Back of diplomatic ID</string>
+    <string name="idenfy_identification_results_step_front_document_type_pan_card_title_v2">Front of PAN card</string>
+    <string name="idenfy_identification_results_step_back_document_type_pan_card_title_v2">Back of PAN card</string>
+    <string name="idenfy_identification_results_step_front_document_type_aadhaar_card_title_v2">Front of aadhaar card</string>
+    <string name="idenfy_identification_results_step_back_document_type_aadhaar_card_title_v2">Back of aadhaar card</string>
+    <string name="idenfy_identification_results_step_front_document_type_address_card_title_v2">Front of address card</string>
+    <string name="idenfy_identification_results_step_front_document_type_social_security_card_title_v2">Front of social security card</string>
+    <string name="idenfy_identification_results_step_back_document_type_social_security_card_title_v2">Back of social security card</string>
+    <string name="idenfy_identification_results_step_face">Face photo</string>
+    <string name="idenfy_identification_results_retake_button_title_v2">TRY AGAIN</string>
+    <string name="idenfy_identification_results_error_continue_button_title_v2">CONTINUE</string>
+    <string name="idenfy_identification_results_mrz_not_found_dialog_title_v2">Please make sure your document has machine-readable zone</string>
+    <string name="idenfy_identification_results_mrz_not_found_dialog_description_v2">Machine-readable zone (MRZ) usually consists of 2 (passport) or 3 (ID card) lines of symbols. MRZ example is presented in the image bellow, marked by a red rectangle.</string>
+    <string name="idenfy_identification_results_mrz_not_found_back_button_title_v2">GO BACK</string>
+    <string name="idenfy_identification_results_mrz_not_found_continue_button_title_v2">I AM SURE</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_1_v2">Document not found. Make sure you are showing </string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_3_v2"> and document issue country is </string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_passport_v2">PASSPORT</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_id_card_v2">ID CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_residence_permit_v2">RESIDENCE PERMIT</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_driver_license_v2">DRIVER\'S LICENSE</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_document_v2">DOCUMENT</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_visa_v2">VISA</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_border_crossing_v2">BORDER CROSSING CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_asylum_v2">ASYLUM RESIDENCE PERMIT</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_national_passport_v2">NATIONAL PASSPORT</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_provisional_driver_license_v2">PROVISIONAL DRIVER LICENSE</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_voter_card_v2">VOTER CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_old_id_card_v2">OLD ID CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_travel_card_v2">TRAVEL CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_photo_card_v2">PHOTO CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_military_card_v2">MILITARY (VETERAN) CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_proof_of_age_card_v2">PROOF OF AGE CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_diplomatic_id_card_v2">DIPLOMATIC ID</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_pan_card_title_v2">PAN CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_aadhaar_card_title_v2">Aadhaar CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_address_card_title_v2">ADDRESS CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_social_security_card_title_v2">SOCIAL SECURITY CARD</string>
+    <string name="idenfy_identification_results_doc_not_found_dialog_description_country_part_v2"> Make sure your document issue country is </string>
+
+    <!--Idenfy Identification Results Suspected View V2-->
+    <string name="idenfy_identification_results_suspected_view_title_v2">Your information has been submitted</string>
+    <string name="idenfy_identification_results_suspected_view_description_v2">If you have any questions, please contact our customer support team</string>
+    <string name="idenfy_identification_results_suspected_view_email_v2">support@idenfy.com</string>
+    <string name="idenfy_identifiaction_results_suspected_view_continue_button_title_v2">CONTINUE</string>
+
+    <!--Idenfy Identification Results Success View V2-->
+    <string name="idenfy_identification_results_success_fragment_title_v2">Verification approved</string>
+    <string name="idenfy_identification_results_success_fragment_description_v2"> </string>
+    <string name="idenfy_identifiaction_results_success_fragment_identified_v2">Verified</string>
+
+    <!--Idenfy Manual Reviewing Identification Results Status Waiting View V2-->
+    <string name="idenfy_manual_reviewing_status_waiting_view_information_title_v2">Verification submitted</string>
+    <string name="idenfy_manual_reviewing_status_waiting_view_information_top_description_v2">Your verification requires additional manual review. You will be notified of when the review will be completed.</string>
+    <string name="idenfy_manual_reviewing_status_waiting_view_information_description_v2">It usually takes from 1 to 5 minutes to receive your results</string>
+    <string name="idenfy_manual_reviewing_status_waiting_view_stop_waiting_button_v2">BACK TO ACCOUNT</string>
+    <string name="idenfy_manual_reviewing_status_waiting_view_identification_manual_completed_title_v2">Additional data review</string>
+    <string name="idenfy_manual_reviewing_status_waiting_view_identification_auto_completed_title_v2">Automated AI check completed</string>
+    <string name="idenfy_manual_reviewing_status_waiting_view_time_left_title_v2">TIME LEFT</string>
+
+    <!--Idenfy Manual Reviewing Identification Results Status Waiting Stop Waiting Identification Alert V2-->
+    <string name="idenfy_alert_title_manual_reviewing_status_waiting_terminate_information">Abort verification</string>
+    <string name="idenfy_alert_message_manual_reviewing_status_waiting_terminate_information">Are you sure you want to abort verification?</string>
+    <string name="idenfy_alert_positive_button_manual_reviewing_status_waiting_terminate_information">YES</string>
+    <string name="idenfy_alert_negative_button_manual_reviewing_status_waiting_terminate_information">NO</string>
+
+    <!--Idenfy Manual Reviewing Identification Results Status Approved View V2-->
+    <string name="idenfy_manual_reviewing_status_approved_view_information_title_v2">Your Verification Was Successful!</string>
+    <string name="idenfy_manual_reviewing_status_approved_view_information_description_v2">Thank You</string>
+    <string name="idenfy_manual_reviewing_status_approved_view_continue_button_v2">CONTINUE</string>
+
+    <!--Idenfy Manual Reviewing Identification Results Status Failed View V2-->
+    <string name="idenfy_manual_reviewing_status_failed_view_information_title_v2">Verification failed</string>
+    <string name="idenfy_manual_reviewing_status_failed_view_information_description_v2">We could not confirm your identity</string>
+    <string name="idenfy_manual_reviewing_status_failed_view_information_support_description_part_1_v2">Please contact</string>
+    <string name="idenfy_manual_reviewing_status_failed_view_information_support_email_v2">support@idenfy.com</string>
+    <string name="idenfy_manual_reviewing_status_failed_view_information_support_description_part_2_v2">for further support</string>
+    <string name="idenfy_manual_reviewing_status_failed_view_continue_button_v2">CONTINUE</string>
+
+    <!--Idenfy Camera Permissions View V2-->
+    <string name="idenfy_camera_permissions_view_information_title_v2">May we use your camera?</string>
+    <string name="idenfy_camera_permissions_view_information_description_v2">We need to use your camera to take the photo of your document and face photo</string>
+    <string name="idenfy_camera_permissions_view_guidance_information_description_v2">Go to settings, tap on "Permissions” to grant access to the camera</string>
+    <string name="idenfy_camera_permissions_view_goto_settings_button_title_v2">ENABLE CAMERA</string>
+
+    <!-- Idenfy NFC Reading View V2-->
+    <string name="idenfy_nfc_reading_view_information_alert_title_passport_v2">Touch the middle of the passport to the top of the phone</string>
+    <string name="idenfy_nfc_reading_view_information_alert_title_id_card_v2">Touch the middle of the ID card to the top of the phone</string>
+    <string name="idenfy_nfc_reading_view_information_alert_title_document_v2">Touch the middle of the document to the top of the phone</string>
+    <string name="idenfy_nfc_reading_view_information_reading_data_document_title_v2">Reading document data…</string>
+    <string name="idenfy_nfc_reading_view_information_reading_finished_v2">Passport reading finished</string>
+    <string name="idenfy_nfc_reading_view_information_reading_started_title_v2">Please wait a moment…</string>
+    <string name="idenfy_nfc_reading_view_information_reading_status_failed_v2">Oops! Something went wrong.</string>
+    <string name="idenfy_nfc_reading_view_information_reading_snackbar_title_v2">Please move the phone away from the document!</string>
+
+    <!-- Idenfy NFC Reading Time Out View V2-->
+    <string name="idenfy_nfc_reading_view_information_reading_time_out_title_v2">Time out</string>
+    <string name="idenfy_nfc_reading_view_information_reading_time_out_description_v2">NFC reading time expired</string>
+    <string name="idenfy_nfc_reading_view_information_reading_time_out_continue_button_title_v2">CONTINUE</string>
+
+    <!-- Idenfy NFC Required View V2-->
+    <string name="idenfy_nfc_required_view_information_enable_nfc_title_v2">NFC not enabled</string>
+    <string name="idenfy_nfc_required_view_information_enable_nfc_description_v2">Please enable NFC in device settings before continuing</string>
+    <string name="idenfy_nfc_required_view_information_no_nfc_title_v2">Your device is not supported</string>
+    <string name="idenfy_nfc_required_view_information_no_nfc_description_v2">Please use a mobile phone with built-in NFC tag reader</string>
+    <string name="idenfy_nfc_required_view_information_button_enable_nfc_title_v2">ENABLE NFC</string>
+    <string name="idenfy_nfc_required_view_information_button_title_v2">CONTINUE</string>
+
+    <!-- Idenfy NFC IOS V2-->
+    <string name="idenfy_nfc_reading_view_information_title_passport_v2">Touch the middle of the passport to the top of the phone</string>
+    <string name="idenfy_nfc_reading_view_information_title_id_card_v2">Touch the middle of the ID card to the top of the phone</string>
+    <string name="idenfy_nfc_reading_view_information_title_document_v2">Touch the middle of the document to the top of the phone</string>
+    <string name="idenfy_nfc_reading_view_information_reading_data_document_image_v2">Reading document image…</string>
+    <string name="idenfy_nfc_reading_view_information_reading_continue_button_title_v2">CONTINUE</string>
+    <string name="idenfy_nfc_reading_view_information_reading_status_no_connecton_v2">Connection interrupted. Please move the phone closer!</string>
+    <string name="idenfy_nfc_required_view_information_title_v2">Your device is not supported</string>
+    <string name="idenfy_nfc_required_view_information_description_v2">Please use a mobile phone with built-in NFC tag reader</string>
+
+    <!--Idenfy Manual Reviewing Identification Results Status Waiting Stop Waiting Identification Alert V2-->
+    <string name="idenfy_alert_title_manual_reviewing_status_waiting_stop_waiting_information">Abort verification</string>
+    <string name="idenfy_alert_message_manual_reviewing_status_waiting_stop_waiting_information">Are you sure you want to abort verification?</string>
+    <string name="idenfy_alert_positive_button_manual_reviewing_status_waiting_stop_waiting_information">YES</string>
+    <string name="idenfy_alert_negative_button_manual_reviewing_status_waiting_stop_waiting_information">NO</string>
+
+    <!-- Idenfy Additional Support View V2-->
+    <string name="idenfy_additional_support_view_title">You have canceled the verification process</string>
+    <string name="idenfy_additional_support_view_description">The verification process was not performed. If you have any questions, please contact our customer support team.</string>
+    <string name="idenfy_additional_support_view_email">support@idenfy.com</string>
+    <string name="idenfy_additional_support_view_button_title">GO BACK</string>
+
+    <!-- Idenfy Internet Connection V2-->
+    <string name="idenfy_internet_connection_lost_title">Connection issues. Please make sure you have stable internet connection</string>
+
+    <!-- Face Authentication Initial View V2-->
+    <string name="idenfy_face_authentication_initial_view_failed_title_part_1">You have</string>
+    <string name="idenfy_face_authentication_initial_view_failed_title_part_2">3</string>
+    <string name="idenfy_face_authentication_initial_view_failed_title_part_3">attempts to authenticate yourself!</string>
+    <string name="idenfy_face_authentication_initial_view_failed_title_placeholder">You have **3** attempts to authenticate yourself!</string>
+    <string name="idenfy_face_authentication_initial_view_button_title">CONTINUE</string>
+    <string name="idenfy_face_authentication_initial_view_alert_message">Face verification failed!</string>
+
+    <!-- Face Authentication Results V2-->
+    <string name="idenfy_face_authentication_results_success_title">Successful authentication</string>
+    <string name="idenfy_face_authentication_results_success_description">You have been successfully authenticated!</string>
+    <string name="idenfy_face_authentication_results_final_failed_title">Face verification was not successful.</string>
+    <string name="idenfy_face_authentication_results_final_failed_description">Follow the steps prompted on the screen and ensure a well-lit environment. Try to avoid: blur, shadow, glare, fingers, or other objects in the photo.</string>
+    <string name="idenfy_face_authentication_results_failed_description">Face verification was not successful. Follow the steps prompted on the screen and ensure a well-lit environment. Try to avoid: blur, shadow, glare, fingers, or other objects in the photo.</string>
+    <string name="idenfy_face_authentication_results_button_title">CONTINUE</string>
+
+    <!-- Face Authentication Exit Alert-->
+    <string name="idenfy_face_authentication_exit_alert_title">Cancel authentication</string>
+    <string name="idenfy_face_authentication_exit_alert_description">Are you sure you want to cancel face authentication?</string>
+</resources>

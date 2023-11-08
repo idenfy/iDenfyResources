@@ -1,0 +1,197 @@
+{"groups": [
+  {
+    "groupFriendlyName": "Your Information",
+    "fields": [
+      {
+        "fieldKey": "firstName",
+        "fieldFriendlyName": "First Name",
+        "uiFieldDescriptionText": "First Name"
+      },
+      {
+        "fieldKey": "lastName",
+        "fieldFriendlyName": "Last Name",
+        "uiFieldDescriptionText": "Last Name"
+      },
+      {
+        "fieldKey": "placeOfBirth",
+        "fieldFriendlyName": "Place of Birth",
+        "uiFieldDescriptionText": "Place of Birth"
+      },
+      {
+        "fieldKey": "nationality",
+        "fieldFriendlyName": "Nationality",
+        "uiFieldDescriptionText": "Nationality"
+      },
+      {
+        "fieldKey": "givenName",
+        "fieldFriendlyName": "Given Name",
+        "uiFieldDescriptionText": "Given Name"
+      },
+      {
+        "fieldKey": "fullName",
+        "fieldFriendlyName": "Full Name",
+        "uiFieldDescriptionText": "Full Name"
+      },
+      {
+        "fieldKey": "dateOfBirth",
+        "fieldFriendlyName": "DOB",
+        "uiFieldDescriptionText": "DOB"
+      },
+      {
+        "fieldKey": "middleName",
+        "fieldFriendlyName": "Middle Name",
+        "uiFieldDescriptionText": "Middle Name"
+      }
+    ],
+    "groupKey": "userInfo"
+  },
+  {
+    "groupFriendlyName": "Your Address",
+    "fields": [
+      {
+        "fieldKey": "zipCode",
+        "fieldFriendlyName": "Zip Code",
+        "uiFieldDescriptionText": "Zip Code"
+      },
+      {
+        "fieldKey": "country",
+        "fieldFriendlyName": "Country",
+        "uiFieldDescriptionText": "Country"
+      },
+      {
+        "fieldKey": "address3",
+        "fieldFriendlyName": "Address Line 3",
+        "uiFieldDescriptionText": "Address Line 3"
+      },
+      {
+        "fieldKey": "address2",
+        "fieldFriendlyName": "Address Line 2",
+        "uiFieldDescriptionText": "Address Line 2"
+      },
+      {
+        "fieldKey": "city",
+        "fieldFriendlyName": "City",
+        "uiFieldDescriptionText": "City"
+      },
+      {
+        "fieldKey": "address1",
+        "fieldFriendlyName": "Address Line 1",
+        "uiFieldDescriptionText": "Address Line 1"
+      },
+      {
+        "fieldKey": "state",
+        "fieldFriendlyName": "State",
+        "uiFieldDescriptionText": "State"
+      }
+    ],
+    "groupKey": "addressInfo"
+  },
+  {
+    "groupFriendlyName": "Physical Traits & Misc",
+    "fields": [
+      {
+        "fieldKey": "sex",
+        "fieldFriendlyName": "Gender",
+        "uiFieldDescriptionText": "Gender"
+      },
+      {
+        "fieldKey": "weight",
+        "fieldFriendlyName": "Weight",
+        "uiFieldDescriptionText": "Weight"
+      },
+      {
+        "fieldKey": "eyes",
+        "fieldFriendlyName": "Eyes",
+        "uiFieldDescriptionText": "Eyes"
+      },
+      {
+        "fieldKey": "height",
+        "fieldFriendlyName": "Height",
+        "uiFieldDescriptionText": "Height"
+      }
+    ],
+    "groupKey": "secondaryUserInfo"
+  },
+  {
+    "groupFriendlyName": "Additional Info",
+    "fields": [
+      {
+        "fieldKey": "customField1",
+        "fieldFriendlyName": "Custom Field 1",
+        "uiFieldDescriptionText": "Custom Field 1"
+      },
+      {
+        "fieldKey": "customField2",
+        "fieldFriendlyName": "Custom Field 2",
+        "uiFieldDescriptionText": "Custom Field 2"
+      },
+      {
+        "fieldKey": "customField3",
+        "fieldFriendlyName": "Custom Field 3",
+        "uiFieldDescriptionText": "Custom Field 3"
+      },
+      {
+        "fieldKey": "customField4",
+        "fieldFriendlyName": "Custom Field 4",
+        "uiFieldDescriptionText": "Custom Field 4"
+      }
+    ],
+    "groupKey": "customFields"
+  },
+  {
+    "groupFriendlyName": "Photo ID Details",
+    "fields": [
+      {
+        "fieldKey": "issuingAuthority",
+        "fieldFriendlyName": "Issuing Authority",
+        "uiFieldDescriptionText": "Issuing Authority"
+      },
+      {
+        "fieldKey": "dateOfExpiration",
+        "fieldFriendlyName": "Exp Date",
+        "uiFieldDescriptionText": "Exp Date"
+      },
+      {
+        "fieldKey": "countryCode",
+        "fieldFriendlyName": "Country Code",
+        "uiFieldDescriptionText": "Country Code"
+      },
+      {
+        "fieldKey": "passportType",
+        "fieldFriendlyName": "Passport Type",
+        "uiFieldDescriptionText": "Passport Type"
+      },
+      {
+        "fieldKey": "dateOfIssue",
+        "fieldFriendlyName": "Issued Date",
+        "uiFieldDescriptionText": "Issued Date"
+      },
+      {
+        "fieldKey": "idNumber",
+        "fieldFriendlyName": "Photo ID #",
+        "uiFieldDescriptionText": "Photo ID #"
+      },
+      {
+        "fieldKey": "idNumber2",
+        "fieldFriendlyName": "Secondary ID #",
+        "uiFieldDescriptionText": "Secondary ID #"
+      },
+      {
+        "fieldKey": "mrzLine3",
+        "fieldFriendlyName": "MRZ 3",
+        "uiFieldDescriptionText": "MRZ 3"
+      },
+      {
+        "fieldKey": "mrzLine1",
+        "fieldFriendlyName": "MRZ 1",
+        "uiFieldDescriptionText": "MRZ 1"
+      },
+      {
+        "fieldKey": "mrzLine2",
+        "fieldFriendlyName": "MRZ 2",
+        "uiFieldDescriptionText": "MRZ 2"
+      }
+    ],
+    "groupKey": "idInfo"
+  }
+]}

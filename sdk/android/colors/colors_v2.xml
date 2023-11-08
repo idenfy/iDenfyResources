@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="idenfyBackgroundColorV2">#FBFBFB</color>
+    <color name="idenfyMainColorV2">#536DFE</color>
+    <color name="idenfyMainDarkerColorV2">#5D7CE4</color>
+    <color name="idenfySecondColorV2">#F2353B4E</color>
+    <color name="idenfyMainColor50percentV2">#80536DFE</color>
+    <color name="idenfySecondColor6percentV2">#0F353B4E</color>
+    <color name="idenfySecondColor20percentV2">#33353B4E</color>
+    <color name="idenfySecondColor50percentV2">#80353B4E</color>
+    <color name="idenfySecondColor80percentV2">#CC353B4E</color>
+    <color name="idenfyInactiveColorV2">#EFF1F8</color>
+    <color name="idenfyStepSuccessColorV2">@color/idenfyMainDarkerColorV2</color>
+    <color name="idenfyStepErrorColorV2">#D32F2F</color>
+    <color name="idenfyGradientAccentV2">#8D6CFB</color>
+    <color name="idenfyFaceOvalStrokeColor">#FFFFFF</color>
+    <color name="idenfyTakePhotoButtonBackgroundFocused">@color/idenfyMainDarkerColorV2</color>
+    <color name="idenfyTakePhotoButtonIconUnFocused">@color/idenfyMainDarkerColorV2</color>
+    <color name="idenfyTransparentCameraOverlayV2">#4D000000</color>
+    <color name="idenfyDrawerCurrentInstructionIndicatorColorV2">@color/idenfyMainColorV2</color>
+    <color name="idenfyDrawerInstructionControlsTintColorV2">#FFFFFF</color>
+    <color name="idenfyPhotoResultDetailsCardBackgroundColorV2">#D9DFFC</color>
+    <color name="idenfyRedColorV2">#F44336</color>
+    <color name="idenfyErrorRedColorV2">#C1170B</color>
+    <color name="idenfyErrorLightRedColorV2">#FFEBEE</color>
+    <color name="idenfyGreenColorV2">#9CEE13</color>
+    <color name="idenfyGrayColorV2">#CFD8DC</color>
+    <color name="idenfyTransparentCameraOverlay">#60ffffff</color>
+    <color name="idenfyPhotoResultBackgroundColor">#000000</color>
+    <color name="idenfyHelpSheetOverlay">#99000000</color>
+    <color name="idenfyCameraBackArrowResultsColor">#ffffff</color>
+    <color name="idenfyInstructionsVideoBackgroundColor">#B9BEBF</color>
+    <color name="idenfyLivenessBackgroundColor">#ffffff</color>
+    <color name="idenfyBlack">#000000</color>
+
+    <!-- Instruction colors -->
+    <color name="idenfyInstructionDocumentsCameraSessionInformationTextViewColor">#ffffff</color>
+    <color name="idenfyInstructionDocumentsCameraSessionTitleColor">#ffffff</color>
+    <color name="idenfyInstructionDocumentsCameraSessionBackArrowColor">#ffffff</color>
+    <color name="idenfyInstructionDocumentsCameraSessionBackTextViewColor">#ffffff</color>
+    <color name="idenfyInstructionFaceCameraSessionInformationTextViewColor">#ffffff</color>
+    <color name="idenfyInstructionFaceCameraSessionBackArrowColor">#ffffff</color>
+    <color name="idenfyInstructionFaceCameraSessionBackTextViewColor">#ffffff</color>
+    <color name="idenfyInstructionExpandTopLayoutButtonColor">#ffffff</color>
+    <color name="idenfyInstructionCurrentInstructionContentTextColor">#ffffff</color>
+    <color name="idenfyInstructionCurrentInstructionContentTitleColor">#ffffff</color>
+    <color name="idenfyInstructionNextInstructionPageButtonColor">#ffffff</color>
+    <color name="idenfyInstructionPreviousInstructionPageButtonColor">#ffffff</color>
+    <color name="idenfyInstructionDoneInstructionPageButtonColor">#ffffff</color>
+    <color name="idenfyInstructionInactiveDotColor">#ffffff</color>
+    <color name="idenfyInstructionSelectedDotColor">#8BC7E0</color>
+</resources>
