@@ -316,6 +316,12 @@
     <!--Idenfy Face Camera Preview Session View V2-->
     <string name="idenfy_face_camera_preview_session_description_v2">Place your face into the marked area and take a clear photo</string>
     <string name="idenfy_face_camera_preview_title_v2">Take your face photo</string>
+    <string name="idenfy_face_camera_preview_session_face_too_close_description_v2">Your face is too close</string>
+    <string name="idenfy_face_camera_preview_session_face_too_far_description_v2">Your face is too far</string>
+    <string name="idenfy_face_camera_preview_session_face_outside_oval_description_v2">Your face is outside the marked area</string>
+    <string name="idenfy_face_camera_preview_session_face_inside_oval_description_v2">Perfect! Now take a clear photo</string>
+    <string name="idenfy_face_camera_preview_session_too_many_faces_description_v2">Too many faces detected</string>
+    <string name="idenfy_face_camera_preview_session_eyes_closed_description_v2">Your eyes are closed</string>
 
     <!--Idenfy Face Camera Results View V2-->
     <string name="idenfy_face_camera_results_title_v2">Confirm face photo</string>
@@ -505,7 +511,7 @@
     <!--Idenfy Camera Permissions View V2-->
     <string name="idenfy_camera_permissions_view_information_title_v2">May we use your camera?</string>
     <string name="idenfy_camera_permissions_view_information_description_v2">We need to use your camera to take the photo of your document and face photo</string>
-    <string name="idenfy_camera_permissions_view_guidance_information_description_v2">Go to settings, tap on "Permissions” to grant access to the camera</string>
+    <string name="idenfy_camera_permissions_view_guidance_information_description_v2">Go to settings, tap on \"Permissions\" to grant access to the camera</string>
     <string name="idenfy_camera_permissions_view_goto_settings_button_title_v2">ENABLE CAMERA</string>
 
     <!-- Idenfy NFC Reading View V2-->
@@ -513,9 +519,10 @@
     <string name="idenfy_nfc_reading_view_information_alert_title_id_card_v2">Touch the middle of the ID card to the top of the phone</string>
     <string name="idenfy_nfc_reading_view_information_alert_title_document_v2">Touch the middle of the document to the top of the phone</string>
     <string name="idenfy_nfc_reading_view_information_reading_data_document_title_v2">Reading document data…</string>
-    <string name="idenfy_nfc_reading_view_information_reading_finished_v2">Passport reading finished</string>
+    <string name="idenfy_nfc_reading_view_information_reading_finished_v2">Document reading finished</string>
     <string name="idenfy_nfc_reading_view_information_reading_started_title_v2">Please wait a moment…</string>
-    <string name="idenfy_nfc_reading_view_information_reading_status_failed_v2">Oops! Something went wrong.</string>
+    <string name="idenfy_nfc_reading_view_information_reading_status_failed_v2">NFC is unavailable or unreadable with your document. Please try again.</string>
+    <string name="idenfy_nfc_reading_view_information_reading_status_missmatch_v2">NFC failed. Please try again.</string>
     <string name="idenfy_nfc_reading_view_information_reading_snackbar_title_v2">Please move the phone away from the document!</string>
 
     <!-- Idenfy NFC Reading Time Out View V2-->
@@ -526,8 +533,8 @@
     <!-- Idenfy NFC Required View V2-->
     <string name="idenfy_nfc_required_view_information_enable_nfc_title_v2">NFC not enabled</string>
     <string name="idenfy_nfc_required_view_information_enable_nfc_description_v2">Please enable NFC in device settings before continuing</string>
-    <string name="idenfy_nfc_required_view_information_no_nfc_title_v2">Your device is not supported</string>
-    <string name="idenfy_nfc_required_view_information_no_nfc_description_v2">Please use a mobile phone with built-in NFC tag reader</string>
+    <string name="idenfy_nfc_required_view_information_no_nfc_title_v2">NFC Unavailable</string>
+    <string name="idenfy_nfc_required_view_information_no_nfc_description_v2">Your device does not support NFC. For further support, please contact</string>
     <string name="idenfy_nfc_required_view_information_button_enable_nfc_title_v2">ENABLE NFC</string>
     <string name="idenfy_nfc_required_view_information_button_title_v2">CONTINUE</string>
 
