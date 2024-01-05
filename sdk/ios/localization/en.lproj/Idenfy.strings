@@ -63,7 +63,7 @@
 /*Idenfy Start Identification Predefined View V2*/
 "idenfy_start_identification_predefined_view_information_title_v2" = "Start identity verification";
 "idenfy_start_identification_predefined_view_information_description_v2" = "Document country of issue";
-"idenfy_start_identification_predefined_view_begin_identification_button_v2" = "Let\'s begin";
+"idenfy_start_identification_predefined_view_begin_identification_button_v2" = "LET\'S BEGIN";
 
 /*Idenfy Country Selection View V2*/
 "idenfy_country_selection_view_information_title_v2" = "Select issuing country";
@@ -315,6 +315,12 @@
 /*Idenfy Face Camera Preview Session View V2*/
 "idenfy_face_camera_preview_session_description_v2" = "Place your face into the marked area and take a clear photo";
 "idenfy_face_camera_preview_title_v2" = "Take your face photo";
+"idenfy_face_camera_preview_session_face_too_close_description_v2" = "Your face is too close";
+"idenfy_face_camera_preview_session_face_too_far_description_v2" = "Your face is too far";
+"idenfy_face_camera_preview_session_face_outside_oval_description_v2" = "Your face is outside the marked area";
+"idenfy_face_camera_preview_session_face_inside_oval_description_v2" = "Perfect! Now take a clear photo";
+"idenfy_face_camera_preview_session_too_many_faces_description_v2" = "Too many faces detected";
+"idenfy_face_camera_preview_session_eyes_closed_description_v2" = "Your eyes are closed";
 
 /*Idenfy Face Camera Results View V2*/
 "idenfy_face_camera_results_title_v2" = "Confirm face photo";
@@ -378,6 +384,10 @@
 "idenfy_upload_results_view_document_continue_button_title_v2" = "CONTINUE";
 "idenfy_upload_results_view_pdf_size_alert_title_v2" = "Maximum file size exceeded";
 "idenfy_upload_results_view_pdf_size_alert_message_v2" = "Please select a file with a valid size no larger than 5MB";
+"idenfy_upload_results_view_incorrect_mime_type_alert_title_v2" = "Unsupported file type";
+"idenfy_upload_results_view_incorrect_mime_type_alert_message_v2" = "Supported file types:";
+"idenfy_upload_results_view_failed_to_upload_file_title_v2" = "Upload failure";
+"idenfy_upload_results_view_failed_to_upload_file_description_v2" = "We were not able to upload the selected file. Please try again!";
 
 /*Idenfy Identification Results View V2*/
 "idenfy_identification_results_identification_status_loading_title_v2" = "Analysing your verification…";
@@ -512,10 +522,11 @@
 "idenfy_nfc_reading_view_information_title_document_v2" = "Touch the middle of the document to the top of the phone";
 "idenfy_nfc_reading_view_information_reading_data_document_title_v2" = "Reading document data...";
 "idenfy_nfc_reading_view_information_reading_data_document_image_v2" = "Reading document image...";
-"idenfy_nfc_reading_view_information_reading_finished_v2" = "Passport reading finished";
+"idenfy_nfc_reading_view_information_reading_finished_v2" = "Document reading finished";
 "idenfy_nfc_reading_view_information_reading_continue_button_title_v2" = "CONTINUE";
 "idenfy_nfc_reading_view_information_reading_started_title_v2" = "Please wait a moment...";
-"idenfy_nfc_reading_view_information_reading_status_failed_v2" = "Oops! Something went wrong.";
+"idenfy_nfc_reading_view_information_reading_status_failed_v2" = "NFC is unavailable or unreadable with your document. Please try again.";
+"idenfy_nfc_reading_view_information_reading_status_missmatch_v2" = "NFC failed. Please try again.";
 "idenfy_nfc_reading_view_information_reading_status_no_connecton_v2" = "Connection interrupted. Please move the phone closer!";
 
 /*Idenfy NFC Reading Time Out View V2*/
@@ -524,8 +535,8 @@
 "idenfy_nfc_reading_view_information_reading_time_out_continue_button_title_v2" = "CONTINUE";
 
 /*Idenfy NFC Required View V2*/
-"idenfy_nfc_required_view_information_title_v2" = "Your device is not supported";
-"idenfy_nfc_required_view_information_description_v2" = "Please use a mobile phone with built-in NFC tag reader";
+"idenfy_nfc_required_view_information_title_v2" = "NFC Unavailable";
+"idenfy_nfc_required_view_information_description_v2" = "Your device does not support NFC. For further support, please contact";
 
 /*Idenfy Additional Support View V2*/
 "idenfy_additional_support_view_title" = "You have canceled the verification process";
@@ -593,125 +604,16 @@
 "idenfy_document_and_face_camera_results_document_analysis_title" = "Analysing…";
 "idenfy_document_and_face_camera_results_document_analysis_description" = "Please wait a moment.";
 
-/**/
+/*Idenfy Camera Failed Alert*/
+"idenfy_alert_camera_failure_title" = "An issue occurred";
+"idenfy_alert_camera_failure_message" = "Camera failed to initialize, please try again!";
+"idenfy_alert_positive_button_camera_failure" = "Continue";
 
-/*Idenfy Instruction strings */
+/*Auto Capture Messages*/
+"idenfy_document_camera_results_view_document_front_not_in_frame_message" = "Make sure the front of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.";
 
-/* Passport */
-"idenfy_instructions_passport_correct_title" = "Show your passport";
-"idenfy_instructions_passport_correct_text" = "Make sure you show your passport during verification and not another document.";
+"idenfy_document_camera_results_view_document_back_not_in_frame_message" = "Make sure the back of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.";
 
-"idenfy_instructions_passport_mrz_title" = "Passport has MRZ area";
-"idenfy_instructions_passport_mrz_text" = "Make sure your document has the MRZ (2 or 3 character lines). If your document does not have an MRZ zone, select \"OTHER DOCUMENTS\" in the document selection window.";
-
-"idenfy_instructions_passport_fits_frame_title" = "The passport fits in white frames";
-"idenfy_instructions_passport_fits_frame_text" = "Make sure the passport fits into white frames and does not go beyond the borders of the frame, and the document shown is not blurred and clearly legible.";
-
-"idenfy_instructions_passport_finger_title" = "The finger does not cover the document";
-"idenfy_instructions_passport_finger_text" = "Do not cover your face or any other information in the document.";
-
-"idenfy_instructions_passport_reflection_title" = "There is no reflection of light";
-"idenfy_instructions_passport_reflection_text" = "Make sure the light reflection or document hologram does not cover the face or other important document information.";
-
-/* ID-Card front */
-"idenfy_instructions_id_front_correct_title" = "Show your ID card";
-"idenfy_instructions_id_front_correct_text" = "Make sure you show the ID card at the time of verification, not the other document.";
-
-"idenfy_instructions_id_front_fit_frame_title" = "The ID card front fits in white frames";
-"idenfy_instructions_id_front_fit_frame_text" = "Make sure the front of the ID card fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and clearly legible.";
-
-"idenfy_instructions_id_front_finger_title" = "The finger does not cover the document";
-"idenfy_instructions_id_front_finger_text" = "Do not cover your face or any other information in the document.";
-
-"idenfy_instructions_id_front_reflection_title" = "There is no reflection of light";
-"idenfy_instructions_id_front_reflection_text" = "Make sure the light reflection or document hologram does not cover the face or other important document information.";
-
-/* ID-Card back */
-"idenfy_instructions_id_back_correct_title" = "Show your ID card back";
-"idenfy_instructions_id_back_correct_text" = "Make sure you are showing the back of the ID card.";
-
-"idenfy_instructions_id_back_mrz_title" = "The document has the MRZ area";
-"idenfy_instructions_id_back_mrz_text" = "Make sure your document has the MRZ (2 or 3 character lines). If your document does not have an MRZ zone, select \"OTHER DOCUMENTS\" in the document selection window.";
-
-"idenfy_instructions_id_back_fit_frame_title" = "The back of the ID card fits in white frames";
-"idenfy_instructions_id_back_fit_frame_text" = "Make sure the back of the ID card fits into the white frame and does not go beyond the edges of the frame. Also, make sure the document you are displaying is not blurred and clearly legible.";
-
-"idenfy_instructions_id_back_finger_title" = "The finger does not cover the document";
-"idenfy_instructions_id_back_finger_text" = "Do not cover the information in the document with your finger.";
-
-/* Residence-permit front */
-"idenfy_instructions_residence_permit_front_correct_title" = "Show your Residence permit";
-"idenfy_instructions_residence_permit_front_correct_text" = "Make sure you show the Residence permit at the time of verification, not the other document.";
-
-"idenfy_instructions_residence_permit_front_fit_frame_title" = "The Residence permit front fits in white frames";
-"idenfy_instructions_residence_permit_front_fit_frame_text" = "Make sure the front of the Residence permit fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and clearly legible.";
-
-"idenfy_instructions_residence_permit_front_finger_title" = "The finger does not cover the document";
-"idenfy_instructions_residence_permit_front_finger_text" = "Do not cover your face or any other information in the document.";
-
-"idenfy_instructions_residence_permit_front_reflection_title" = "There is no reflection of light";
-"idenfy_instructions_residence_permit_front_reflection_text" = "Make sure the light reflection or document hologram does not cover the face or other important document information.";
-
-/* Residence-permit back */
-"idenfy_instructions_residence_permit_back_correct_title" = "Show the back of your Residence permit";
-"idenfy_instructions_residence_permit_back_correct_text" = "Make sure you are showing the back of the Residence permit.";
-
-"idenfy_instructions_residence_permit_back_mrz_title" = "The document has the MRZ area";
-"idenfy_instructions_residence_permit_back_mrz_text" = "Make sure your document has the MRZ (2 or 3 character lines). If your document does not have an MRZ zone, select \"OTHER DOCUMENTS\" in the document selection window.";
-
-"idenfy_instructions_residence_permit_back_fit_frame_title" = "The back of the Residence permit fits in white frames";
-"idenfy_instructions_residence_permit_back_fit_frame_text" = "Make sure the back of the Residence permit fits into the white frame and does not go beyond the edges of the frame. Also, make sure the document you are displaying is not blurred and clearly legible.";
-
-"idenfy_instructions_residence_permit_back_finger_title" = "The finger does not cover the document";
-"idenfy_instructions_residence_permit_back_finger_text" = "Do not cover the information in the document with your finger.";
-
-/* Driver-license front */
-"idenfy_instructions_driver_license_front_correct_title" = "Show your Driving license";
-"idenfy_instructions_driver_license_front_correct_text" = "Make sure you show the Driver license at the time of verification, not the other document.";
-
-"idenfy_instructions_driver_license_front_fit_frame_title" = "The Driving license front fits in white frames";
-"idenfy_instructions_driver_license_front_fit_frame_text" = "Make sure the front of the Driving license fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and clearly legible.";
-
-"idenfy_instructions_driver_license_front_finger_title" = "The finger does not cover the document";
-"idenfy_instructions_driver_license_front_finger_text" = "Do not cover your face or any other information in the document.";
-
-"idenfy_instructions_driver_license_front_reflection_title" = "There is no reflection of light";
-"idenfy_instructions_driver_license_front_reflection_text" = "Make sure the light reflection or document hologram does not cover the face or other important document information.";
-
-/* Other documents front */
-"idenfy_instructions_other_front_mrz_title" = "Show your document that does not have MRZ";
-"idenfy_instructions_other_front_mrz_text" = "Make sure you show the document that does not have MRZ.";
-
-"idenfy_instructions_other_front_fit_frame_title" = "The front of the document fits in white frames";
-"idenfy_instructions_other_front_fit_frame_text" = "Make sure the front of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.";
-
-"idenfy_instructions_other_front_finger_title" = "The finger does not cover the document";
-"idenfy_instructions_other_front_finger_text" = "Do not cover your face or any other information in the document.";
-
-"idenfy_instructions_other_front_reflection_title" = "There is no reflection of light";
-"idenfy_instructions_other_front_reflection_text" = "Make sure the light reflection or document hologram does not cover the face or other important document information.";
-
-/* Other documents back */
-"idenfy_instructions_other_back_fit_frame_title" = "The back of the document fits in white frames";
-"idenfy_instructions_other_back_fit_frame_text" = "Make sure the back of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.";
-
-"idenfy_instructions_other_back_finger_title" = "The finger does not cover the document";
-"idenfy_instructions_other_back_finger_text" = "Do not cover the information in the document with your finger.";
-
-/* Face camera */
-"idenfy_instructions_face_fit_frame_title" = "Face fits in white frames";
-"idenfy_instructions_face_fit_frame_text" = "Make sure your face fits into white frames.";
-
-"idenfy_instructions_face_one_face_title" = "Only one face is visible";
-"idenfy_instructions_face_one_face_text" = "Make sure, there is no other faces visible in the picture.";
-
-"idenfy_instructions_face_shadow_title" = "The face is not covered by a shadow";
-"idenfy_instructions_face_shadow_text" = "Make sure your face is well lit and there is no shadow on it.";
-
-"idenfy_instructions_face_zoom_title" = "Face fits in the frame";
-"idenfy_instructions_face_zoom_text" = "Make sure your face fits into the frame. After taking the selfie move your face closer.";
-
-/**/
 ///*System specific*///
 /* <!--Camera Permission Not Enabled Alert--> */
 "idenfy_alert_title_camera_permission_not_enabled" = "Unable to access the camera";
