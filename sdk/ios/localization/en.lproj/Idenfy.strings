@@ -98,6 +98,7 @@
 "idenfy_documents_selection_view_list_item_document_type_aadhaar_card_title_v2" = "Aadhaar card";
 "idenfy_documents_selection_view_list_item_document_type_address_card_title_v2" = "Address card";
 "idenfy_documents_selection_view_list_item_document_type_social_security_card_title_v2" = "Social security card";
+"idenfy_documents_selection_view_list_item_document_type_work_permit_title_v2" = "Work permit";
 
 /*Idenfy Confirmation View V2*/
 "idenfy_confirmation_view_information_title_v2" = "Confirm document type";
@@ -128,6 +129,7 @@
 "idenfy_confirmation_view_information_aadhaar_card_description_part_2_v2" = "aadhaar card";
 "idenfy_confirmation_view_information_address_card_description_part_2_v2" = "address card";
 "idenfy_confirmation_view_information_social_security_card_description_part_2_v2" = "social security card";
+"idenfy_confirmation_view_information_document_work_permit_description_part_2_v2" = "work permit";
 "idenfy_confirmation_view_information_description_part_3_v2" = "ready to identify";
 "idenfy_confirmation_view_document_steps_title_part_placeholder_v2" = "Verification will take **5** steps:";
 "idenfy_confirmation_view_document_steps_title_part_1_v2" = "Verification will take";
@@ -210,6 +212,8 @@
 "idenfy_document_camera_preview_session_view_information_step_front_document_type_address_card_title_v2" = "Front of address card";
 "idenfy_document_camera_preview_session_view_information_step_front_document_type_social_security_card_title_v2" = "Front of social security card";
 "idenfy_document_camera_preview_session_view_information_step_back_document_type_social_security_card_title_v2" = "Back of social security card";
+"idenfy_document_camera_preview_session_view_information_step_front_document_type_work_permit_title_v2" = "Front of work permit";
+"idenfy_document_camera_preview_session_view_information_step_back_document_type_work_permit_title_v2" = "Back of work permit";
 "idenfy_document_camera_preview_session_view_information_description_v2" = "Place your document into the frame and take a clear photo";
 "idenfy_document_camera_preview_session_view_information_auto_capture_description_v2" = "Place your document into the frame and wait for it to be scanned";
 "idenfy_document_camera_preview_session_view_details_upload_file_type_alert_title_v2_default" = "Please choose a file type";
@@ -279,6 +283,8 @@
 "idenfy_document_camera_results_view_information_step_front_document_type_address_card_title_v2" = "Front of address card";
 "idenfy_document_camera_results_view_information_step_front_document_type_social_security_card_title_v2" = "Front of social security card";
 "idenfy_document_camera_results_view_information_step_back_document_type_social_security_card_title_v2" = "Back of social security card";
+"idenfy_document_camera_results_view_information_step_front_document_type_work_permit_title_v2" = "Front of work permit";
+"idenfy_document_camera_results_view_information_step_back_document_type_work_permit_title_v2" = "Back of work permit";
 "idenfy_document_camera_results_view_information_step_front_document_type_id_card_description_placeholder_v2" = "Is your **front of identity card** clearly visible and in the frame?";
 "idenfy_document_camera_results_view_information_step_back_document_type_id_card_description_placeholder_v2" = "Is your **back of identity card** clearly visible and in the frame?";
 "idenfy_document_camera_results_view_information_step_front_document_type_other_description_placeholder_v2" = "Is your **front of document** clearly visible and in the frame?";
@@ -378,6 +384,8 @@
 "idenfy_upload_results_view_information_step_front_document_type_address_card_title_v2" = "Front of address card";
 "idenfy_upload_results_view_information_step_front_document_type_social_security_card_title_v2" = "Front of social security card";
 "idenfy_upload_results_view_information_step_back_document_type_social_security_card_title_v2" = "Back of social security card";
+"idenfy_upload_results_view_information_step_front_document_type_work_permit_title_v2" = "Front of work permit";
+"idenfy_upload_results_view_information_step_back_document_type_work_permit_title_v2" = "Back of work permit";
 "idenfy_upload_results_view_information_step_face_title_v2" = "Confirm face photo";
 "idenfy_upload_results_view_cropping_description_v2" = "Align uploaded photo into the marked area";
 "idenfy_upload_results_view_choose_another_photo_button_title_v2" = "CHOOSE ANOTHER ONE";
@@ -436,6 +444,8 @@
 "idenfy_identification_results_step_front_document_type_address_card_title_v2" = "Front of address card";
 "idenfy_identification_results_step_front_document_type_social_security_card_title_v2" = "Front of social security card";
 "idenfy_identification_results_step_back_document_type_social_security_card_title_v2" = "Back of social security card";
+"idenfy_identification_results_step_front_document_type_work_permit_title_v2" = "Front of work permit";
+"idenfy_identification_results_step_back_document_type_work_permit_title_v2" = "Back of work permit";
 "idenfy_identification_results_step_face" = "Face photo";
 "idenfy_identification_results_retake_button_title_v2" = "TRY AGAIN";
 "idenfy_identification_results_error_continue_button_title_v2" = "CONTINUE";
@@ -466,6 +476,7 @@
 "idenfy_identification_results_doc_not_found_dialog_description_part_2_aadhaar_card_title_v2" = "Aadhaar CARD";
 "idenfy_identification_results_doc_not_found_dialog_description_part_2_address_card_title_v2" = "ADDRESS CARD";
 "idenfy_identification_results_doc_not_found_dialog_description_part_2_social_security_card_title_v2" = "SOCIAL SECURITY CARD";
+"idenfy_identification_results_doc_not_found_dialog_description_part_2_work_permit_v2" = "WORK PERMIT";
 "idenfy_identification_results_doc_not_found_dialog_description_country_part_v2" = "Make sure your document issue country is";
 
 /*Idenfy Identification Results Success View V2*/
@@ -569,6 +580,11 @@
 
 /*Idenfy Alerts*/
 
+/*Emulator Error Messages*/
+"idenfy_alert_emulator_not_allowed_title" = "Please use a real device!";
+"idenfy_alert_emulator_not_allowed_message" = "To pass verification, do not use any emulators or virtual cameras";
+"idenfy_alert_emulator_not_allowed_button_title" = "CONTINUE";
+
 /*Idenfy Internet Connection Alert*/
 "idenfy_internet_connection_lost_title" = "Connection issues. Please make sure you have stable internet connection";
 
@@ -582,6 +598,7 @@
 "idenfy_alert_title_liveness_default_error" = "INFORMATION";
 "idenfy_alert_message_liveness_default_error" = "Liveness check failed, please try again.";
 "idenfy_alert_message_liveness_face_timeout_error" = "Face liveness check time is up. Please try again.";
+"idenfy_alert_message_liveness_face_portait_mode_error" = "Liveness check failed. Please make sure your phone is in portrait position.";
 
 /*Document Analysis Alert*/
 "idenfy_alert_positive_button_document_analysis_information" = "Continue";
