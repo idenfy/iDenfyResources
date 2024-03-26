@@ -2,7 +2,6 @@
 
 -keep class com.idenfy.idenfySdk.uicomponents.**  { *; }
 -keep class com.idenfy.idenfySdk.api.**  { *; }
--keep class com.idenfy.idenfySdk.instructions.ui.utils.TopSheetBehavior
 
 -keep public class com.idenfy.idenfySdk.CoreSdkInitialization** {
   public protected *;
@@ -93,7 +92,6 @@
 -keepclassmembers public class com.idenfy.idenfysdk.core.networking.models** { *; }
 
 -keep class biz.smartengines.smartid** { *; }
-#-keep class com.idenfy.docscanning.networking.**
 
 # Coroutines
 -keep class kotlinx.coroutines.android.AndroidDispatcherFactory {*;}
@@ -154,6 +152,10 @@
 -keep class com.idenfy.idenfySdk.camerasession.domain.model.** { *; }
 -keepclassmembers class com.idenfy.idenfySdk.camerasession.domain.model.** { *; }
 
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.camerasession.facecamerasession.domain.utils.ConstsFaceDetection
+-keep class com.idenfy.idenfySdk.camerasession.facecamerasession.domain.utils.ConstsFaceDetection { *; }
+-keepclassmembers class com.idenfy.idenfySdk.camerasession.facecamerasession.domain.utils.ConstsFaceDetection { *; }
+
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.identificationresults.domain.models.**
 -keep class com.idenfy.idenfySdk.identificationresults.domain.models.** { *; }
 -keepclassmembers class com.idenfy.idenfySdk.identificationresults.domain.models.** { *; }
@@ -204,6 +206,10 @@
 -keep class com.idenfy.idenfySdk.faceauthentication.api.** { *; }
 -keepclassmembers class com.idenfy.idenfySdk.faceauthentication.api.** { *; }
 
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.faceauthentication.domain.models.**
+-keep class com.idenfy.idenfySdk.faceauthentication.api.domain.models.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.faceauthentication.api.domain.models.** { *; }
+
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.confirmation.consts.**
 -keep class com.idenfy.idenfySdk.features.confirmation.consts.** { *; }
 -keepclassmembers class com.idenfy.idenfySdk.features.confirmation.consts.** { *; }
@@ -249,3 +255,15 @@
 -keepclassmembers class com.idenfy.idenfySdk.nfcreading.utils.ConstsNFCReading { *; }
 
 -keep public class androidx.compose.*.**{*;}
+
+#IDLive
+-keep class net.idrnd.** { *; }
+
+#ML Kit
+-ignorewarnings
+-keepattributes *Annotation*
+-keepattributes Exceptions
+-keepattributes SourceFile,LineNumberTable
+-keep class com.huawei.hianalytics.**{*;}
+-keep class com.huawei.updatesdk.**{*;}
+-keep class com.huawei.hms.**{*;}
