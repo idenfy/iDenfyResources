@@ -23,6 +23,10 @@
     <string name="idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo">Uploading second proof of address photo…</string>
 
     <!--Idenfy Alerts-->
+    <!--Emulator Error Messages -->
+    <string name="idenfy_alert_emulator_not_allowed_title">Please use a real device!</string>
+    <string name="idenfy_alert_emulator_not_allowed_message">To pass verification, do not use any emulators, rooted devices or virtual cameras</string>
+    <string name="idenfy_alert_emulator_not_allowed_button_title">CONTINUE</string>
 
     <!--Manual Reviewing Alert-->
     <string name="idenfy_alert_positive_button_manual_reviewing_information">Proceed</string>
@@ -33,7 +37,6 @@
     <string name="idenfy_alert_positive_button_document_analysis_information">Continue</string>
     <string name="idenfy_alert_title_document_analysis_information">OH NO!</string>
     <string name="idenfy_alert_message_document_analysis_information">Could not determine document type. Please select document type in the next step.</string>
-
 
     <!--Abort Identification Alert-->
     <string name="idenfy_alert_message_abort_identification_information">Are you sure you want to abort verification?</string>
@@ -56,6 +59,7 @@
     <string name="idenfy_alert_title_liveness_default_error">INFORMATION</string>
     <string name="idenfy_alert_message_liveness_default_error">Liveness check failed, please try again.</string>
     <string name="idenfy_alert_message_liveness_face_timeout_error">Face liveness check time is up. Please try again.</string>
+    <string name="idenfy_alert_message_liveness_face_portait_mode_error">Liveness check failed. Please make sure your phone is in portrait position.</string>
 
     <!--Idenfy Camera Failed Alert-->
     <string name="idenfy_alert_camera_failure_title">An issue occurred</string>
