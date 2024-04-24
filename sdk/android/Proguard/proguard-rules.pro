@@ -111,6 +111,7 @@
 -keep class org.ejbca.** {*;}
 
 #FaceTec
+-dontwarn com.facetec.sdk.**
 -keep class com.facetec.sdk.** { *; }
 
 #Moshi
