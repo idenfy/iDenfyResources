@@ -593,4 +593,9 @@
     <!-- Face Authentication Exit Alert-->
     <string name="idenfy_face_authentication_exit_alert_title">Cancel authentication</string>
     <string name="idenfy_face_authentication_exit_alert_description">Are you sure you want to cancel face authentication?</string>
+
+    <!-- Face Authentication Camera View-->
+    <string name="idenfy_face_authentication_quick_authentication_loading_alert_title">Authenticating…</string>
+    <string name="idenfy_face_authentication_quick_authentication_face_loading_description_v2">Please hold steady and look straight ahead!</string>
+    <string name="idenfy_face_authentication_quick_authentication_face_loading_success_description_v2">Perfect! Please wait a couple of seconds while we analyse your information.</string>
 </resources>
