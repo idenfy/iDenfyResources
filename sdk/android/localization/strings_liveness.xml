@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <resources>
-    <string name="FaceTec_accessibility_torch_button">Toggle Light</string>
     <string name="FaceTec_action_ok">OK</string>
     <string name="FaceTec_action_im_ready">I\'M READY</string>
     <string name="FaceTec_action_take_photo">TAKE PHOTO</string>
@@ -58,7 +57,7 @@
     <string name="FaceTec_instructions_header_ready_1">Get Ready For</string>
     <string name="FaceTec_instructions_header_ready_2">Your Video Selfie</string>
     <string name="FaceTec_instructions_message_ready_1">Frame Your Face in the Oval,</string>
-    <string name="FaceTec_instructions_message_ready_2">Press I’m Ready &amp; Move Closer</string>
+    <string name="FaceTec_instructions_message_ready_2">Press «I\'M READY» &amp; Move Closer</string>
     <string name="FaceTec_presession_frame_your_face">Frame Your Face In The Oval</string>
     <string name="FaceTec_presession_position_face_straight_in_oval">Look Straight Ahead</string>
     <string name="FaceTec_presession_hold_steady_3">Hold Steady For: 3</string>
@@ -72,4 +71,20 @@
     <string name="FaceTec_retry_subheader_message">We need a clearer video selfie.</string>
     <string name="FaceTec_retry_instruction_message_3">Too Blurry, Clean Your Camera</string>
     <string name="FaceTec_initializing_camera">Initializing Camera</string>
+    <string name="FaceTec_accessibility_torch_button">Toggle Light</string>
+
+    <string name="Facetec_accessibility_tap_guidance">Double tap anywhere on the screen for face alignment guidance.</string>
+    <string name="Facetec_accessibility_feedback_move_phone_away">Face Too Close</string>
+    <string name="Facetec_accessibility_feedback_move_phone_closer">Face Too Far Away</string>
+    <string name="Facetec_accessibility_feedback_face_too_far_left">Face Too Far Left</string>
+    <string name="Facetec_accessibility_feedback_face_too_far_right">Face Too Far Right</string>
+    <string name="Facetec_accessibility_feedback_face_too_low">Face Too Low</string>
+    <string name="Facetec_accessibility_feedback_face_too_high">Face Too High</string>
+    <string name="Facetec_accessibility_feedback_face_rotated_too_far_left">Face Rotated Too Far Left</string>
+    <string name="Facetec_accessibility_feedback_face_rotated_too_far_right">Face Rotated Too Far Right</string>
+    <string name="Facetec_accessibility_feedback_face_pointing_too_far_left">Face Pointing Too Far Left</string>
+    <string name="Facetec_accessibility_feedback_face_pointing_too_far_right">Face Pointing Too Far Right</string>
+    <string name="Facetec_accessibility_feedback_face_not_on_camera">Face Not On Camera or Too Far Away</string>
+    <string name="Facetec_accessibility_feedback_hold_device_to_eye_level">Hold Device At Eye Level</string>
+
 </resources>
