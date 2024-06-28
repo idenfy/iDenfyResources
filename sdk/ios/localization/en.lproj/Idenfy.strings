@@ -167,7 +167,6 @@
 "idenfy_camera_static_onboarding_view_instructions_trusted_partner_document_description_part_4" = "Hold the document steadily without covering its data";
 "idenfy_camera_static_onboarding_view_instructions_trusted_partner_document_description_part_5" = "Do not cover document corners with your fingers";
 
-
 /*Idenfy Document Camera Preview Session View V2*/
 "idenfy_document_camera_preview_session_view_information_step_front_document_type_id_card_title_v2" = "Front of identity card";
 "idenfy_document_camera_preview_session_view_information_step_back_document_type_id_card_title_v2" = "Back of identity card";
@@ -479,16 +478,16 @@
 "idenfy_identification_results_doc_not_found_dialog_description_part_2_work_permit_v2" = "WORK PERMIT";
 "idenfy_identification_results_doc_not_found_dialog_description_country_part_v2" = "Make sure your document issue country is";
 
-/*Idenfy Identification Results Success View V2*/
-"idenfy_identification_results_success_fragment_title_v2" = "Verification approved";
-"idenfy_identification_results_success_fragment_description_v2" = " ";
-"idenfy_identifiaction_results_success_fragment_identified_v2" = "Verified";
-
 /*Idenfy Identification Results Suspected View V2*/
 "idenfy_identification_results_suspected_view_title_v2" = "Your information has been submitted";
 "idenfy_identification_results_suspected_view_description_v2" = "If you have any questions, please contact our customer support team";
 "idenfy_identification_results_suspected_view_email_v2" = "support@idenfy.com";
 "idenfy_identifiaction_results_suspected_view_continue_button_title_v2" = "CONTINUE";
+
+/*Idenfy Identification Results Success View V2*/
+"idenfy_identification_results_success_fragment_title_v2" = "Verification approved";
+"idenfy_identification_results_success_fragment_description_v2" = " ";
+"idenfy_identifiaction_results_success_fragment_identified_v2" = "Verified";
 
 /*Idenfy Manual Reviewing Identification Results Status Waiting View V2*/
 "idenfy_manual_reviewing_status_waiting_view_information_title_v2" = "Verification submitted";
@@ -579,7 +578,6 @@
 "idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo" = "Uploading second proof of address photo…";
 
 /*Idenfy Alerts*/
-
 /*Emulator Error Messages*/
 "idenfy_alert_emulator_not_allowed_title" = "Please use a real device!";
 "idenfy_alert_emulator_not_allowed_message" = "To pass verification, do not use any emulators or virtual cameras";
@@ -628,7 +626,6 @@
 
 /*Auto Capture Messages*/
 "idenfy_document_camera_results_view_document_front_not_in_frame_message" = "Make sure the front of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.";
-
 "idenfy_document_camera_results_view_document_back_not_in_frame_message" = "Make sure the back of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.";
 
 ///*System specific*///
@@ -656,3 +653,8 @@
 /* Face Authentication Exit Alert*/
 "idenfy_face_authentication_exit_alert_title" = "Cancel authentication";
 "idenfy_face_authentication_exit_alert_description" = "Are you sure you want to cancel face authentication?";
+
+/* Face Authentication Camera View*/
+"idenfy_face_authentication_quick_authentication_loading_alert_title" = "Authenticating...";
+"idenfy_face_authentication_quick_authentication_face_loading_description_v2" = "Please hold steady and look straight ahead!";
+"idenfy_face_authentication_quick_authentication_face_loading_success_description_v2" = "Perfect! Please wait a couple of seconds while we analyse your information.";
