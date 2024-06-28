@@ -23,6 +23,11 @@
     <string name="idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo">Uploading second proof of address photo…</string>
 
     <!--Idenfy Alerts-->
+    <!--Old Android Error Messages -->
+    <string name="idenfy_alert_old_android_not_allowed_title">Please use a newer Android version!</string>
+    <string name="idenfy_alert_old_android_not_allowed_message">To pass verification, you must use a device with Android 8 or newer</string>
+    <string name="idenfy_alert_old_android_not_allowed_button_title">CONTINUE</string>
+
     <!--Emulator Error Messages -->
     <string name="idenfy_alert_emulator_not_allowed_title">Please use a real device!</string>
     <string name="idenfy_alert_emulator_not_allowed_message">To pass verification, do not use any emulators, rooted devices or virtual cameras</string>
@@ -64,6 +69,7 @@
     <!--Idenfy Camera Failed Alert-->
     <string name="idenfy_alert_camera_failure_title">An issue occurred</string>
     <string name="idenfy_alert_camera_failure_message">Camera failed to initialize, please try again!</string>
+    <string name="idenfy_alert_positive_button_camera_failure">Continue</string>
 
     <!--Auto Capture Messages -->
     <string name="idenfy_document_camera_results_view_document_front_not_in_frame_message">Make sure the front of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.</string>
