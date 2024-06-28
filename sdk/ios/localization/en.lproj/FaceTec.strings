@@ -69,3 +69,17 @@
 "FaceTec_retry_your_image_label" = "Your Selfie";
 "FaceTec_retry_ideal_image_label" = "Ideal Pose";
 "FaceTec_initializing_camera" = "Initializing Camera";
+
+"FaceTec_accessibility_tap_guidance" = "Double tap anywhere on the screen for face alignment guidance.";
+"FaceTec_accessibility_feedback_move_phone_away" = "Face Too Close";
+"FaceTec_accessibility_feedback_move_phone_closer" = "Face Too Far Away";
+"FaceTec_accessibility_feedback_face_too_far_left" = "Face Too Far Left";
+"FaceTec_accessibility_feedback_face_too_far_right" = "Face Too Far Right";
+"FaceTec_accessibility_feedback_face_too_low" = "Face Too Low";
+"FaceTec_accessibility_feedback_face_too_high" = "Face Too High";
+"FaceTec_accessibility_feedback_face_rotated_too_far_left" = "Face Rotated Too Far Left";
+"FaceTec_accessibility_feedback_face_rotated_too_far_right" = "Face Rotated Too Far Right";
+"FaceTec_accessibility_feedback_face_pointing_too_far_left" = "Face Pointing Too Far Left";
+"FaceTec_accessibility_feedback_face_pointing_too_far_right" = "Face Pointing Too Far Right";
+"FaceTec_accessibility_feedback_face_not_on_camera" = "Face Not On Camera or Too Far Away";
+"FaceTec_accessibility_feedback_hold_device_to_eye_level" = "Hold Device At Eye Level";
