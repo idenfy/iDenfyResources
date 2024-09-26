@@ -9,6 +9,8 @@
     <string name="IDENFY_SERVER_ERROR_MESSAGE">Oops! Something went wrong.</string>
     <string name="IDENFY_TOKEN_NOT_VALID_MESSAGE">Session expired!</string>
     <string name="IDENFY_TOO_MANY_REATTEMPTS_MESSAGE">Too many attempts!</string>
+    <string name="IDENFY_NFC_FAILED_MESSAGE">NFC authentication failed!</string>
+    <string name="IDENFY_NFC_REQUIRED_MESSAGE">Device with NFC required!</string>
 
     <!--Idenfy navigation-->
     <string name="idenfy_common_title_navigation_back">Back</string>
@@ -23,6 +25,11 @@
     <string name="idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo">Uploading second proof of address photo…</string>
 
     <!--Idenfy Alerts-->
+    <!--Mobile App Error Messages -->
+    <string name="idenfy_alert_mobile_app_not_allowed_title">Verification using mobile app is not allowed!</string>
+    <string name="idenfy_alert_mobile_app_not_allowed_message">To pass verification, you must use other verification methods</string>
+    <string name="idenfy_alert_mobile_app_not_allowed_button_title">CONTINUE</string>
+
     <!--Old Android Error Messages -->
     <string name="idenfy_alert_old_android_not_allowed_title">Please use a newer Android version!</string>
     <string name="idenfy_alert_old_android_not_allowed_message">To pass verification, you must use a device with Android 8 or newer</string>
