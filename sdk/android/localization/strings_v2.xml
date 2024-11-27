@@ -573,6 +573,7 @@
 
     <!-- Idenfy Internet Connection V2-->
     <string name="idenfy_internet_connection_lost_title">Connection issues. Please make sure you have stable internet connection</string>
+    <string name="idenfy_internet_stability_title">Experiencing slow or unstable internet. Please be patient as this may cause delays</string>
 
     <!-- Face Authentication Initial View V2-->
     <string name="idenfy_face_authentication_initial_view_failed_title_part_1">You have</string>
