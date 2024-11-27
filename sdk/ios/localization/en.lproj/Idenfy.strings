@@ -578,6 +578,11 @@
 "idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo" = "Uploading second proof of address photo…";
 
 /*Idenfy Alerts*/
+/*Mobile App Error Messages*/
+"idenfy_alert_mobile_app_not_allowed_title" = "Verification using mobile app is not allowed!";
+"idenfy_alert_mobile_app_not_allowed_message" = "To pass verification, you must use other verification methods";
+"idenfy_alert_mobile_app_not_allowed_button_title" = "CONTINUE";
+
 /*Emulator Error Messages*/
 "idenfy_alert_emulator_not_allowed_title" = "Please use a real device!";
 "idenfy_alert_emulator_not_allowed_message" = "To pass verification, do not use any emulators or virtual cameras";
@@ -585,6 +590,7 @@
 
 /*Idenfy Internet Connection Alert*/
 "idenfy_internet_connection_lost_title" = "Connection issues. Please make sure you have stable internet connection";
+"idenfy_internet_stability_title" = "Experiencing slow or unstable internet. Please be patient as this may cause delays";
 
 /*Manual Reviewing Alert*/
 "idenfy_alert_positive_button_manual_reviewing_information" = "Proceed";
@@ -627,6 +633,11 @@
 /*Auto Capture Messages*/
 "idenfy_document_camera_results_view_document_front_not_in_frame_message" = "Make sure the front of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.";
 "idenfy_document_camera_results_view_document_back_not_in_frame_message" = "Make sure the back of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.";
+
+/*Blur Glare Messages*/
+"idenfy_document_blur_glare_warning_document_not_found" = "Document is not found!";
+"idenfy_document_blur_glare_warning_blur_detected" = "Blur is detected!";
+"idenfy_document_blur_glare_warning_glare_detected" = "Glare is detected!";
 
 ///*System specific*///
 /* <!--Camera Permission Not Enabled Alert--> */
