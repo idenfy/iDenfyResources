@@ -115,7 +115,6 @@
 -keep class com.facetec.sdk.** { *; }
 
 #Moshi
-
 -keepclassmembers class ** {
   @com.squareup.moshi.FromJson *;
   @com.squareup.moshi.ToJson *;
@@ -227,6 +226,22 @@
 -keep class com.smartengines.id.** { *; }
 -keepclassmembers class com.smartengines.id.** { *; }
 
+-keepclasseswithmembernames class * {
+ native <methods>;
+}
+
+-keep class biz.smartengines.smartid.swig.* {
+ public <methods>;
+}
+
+-keep class com.smartengines.common.* {
+ public <methods>;
+}
+
+-keep class com.smartengines.id.* {
+ public <methods>;
+}
+
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.nfcreading.domain.usecases.NFCReadingUseCase
 -keep class com.idenfy.idenfySdk.nfcreading.domain.usecases.NFCReadingUseCase { *; }
 -keepclassmembers class com.idenfy.idenfySdk.nfcreading.domain.usecases.NFCReadingUseCase { *; }
@@ -268,3 +283,22 @@
 -keep class com.huawei.hianalytics.**{*;}
 -keep class com.huawei.updatesdk.**{*;}
 -keep class com.huawei.hms.**{*;}
+
+#Tensorflow
+-keep class org.tensorflow.lite.annotations.UsedByReflection
+-keep @org.tensorflow.lite.annotations.UsedByReflection class *
+-keepclassmembers class * {
+    @org.tensorflow.lite.annotations.UsedByReflection *;
+}
+
+# TensorFlow Lite rules
+-keep class org.tensorflow.** { *; }
+-dontwarn org.tensorflow.**
+
+# TFLite Support Library
+-keep class org.tensorflow.lite.support.** { *; }
+-dontwarn org.tensorflow.lite.support.**
+
+# Prevent stripping TensorFlow Lite delegate classes if using GPU or NNAPI delegates
+-keep class org.tensorflow.lite.gpu.** { *; }
+-keep class org.tensorflow.lite.nnapi.** { *; }
