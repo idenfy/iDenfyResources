@@ -81,4 +81,9 @@
     <!--Auto Capture Messages -->
     <string name="idenfy_document_camera_results_view_document_front_not_in_frame_message">Make sure the front of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.</string>
     <string name="idenfy_document_camera_results_view_document_back_not_in_frame_message">Make sure the back of the document fits into the white frame and does not go beyond the edges of the frame, and the document shown is not blurred and is clearly legible.</string>
+
+    <!--Blur Glare Messages -->
+    <string name="idenfy_document_blur_glare_warning_document_not_found">Document is not found!</string>
+    <string name="idenfy_document_blur_glare_warning_blur_detected">Blur is detected!</string>
+    <string name="idenfy_document_blur_glare_warning_glare_detected">Glare is detected!</string>
 </resources>
