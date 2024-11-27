@@ -30,4 +30,6 @@
     <color name="idenfyLivenessBackgroundColor">#ffffff</color>
     <color name="idenfyBlack">#000000</color>
     <color name="idenfyWhite">#ffffff</color>
+    <color name="idenfyWarningLightYellowV2">#FFF3E0</color>
+    <color name="idenfyWarningYellowV2">#FF9800</color>
 </resources>
