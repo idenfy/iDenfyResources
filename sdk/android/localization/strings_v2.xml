@@ -479,6 +479,9 @@
     <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_social_security_card_title_v2">SOCIAL SECURITY CARD</string>
     <string name="idenfy_identification_results_doc_not_found_dialog_description_part_2_work_permit_v2">WORK PERMIT</string>
     <string name="idenfy_identification_results_doc_not_found_dialog_description_country_part_v2"> Make sure your document issue country is </string>
+    <string name="idenfy_identification_results_mismatch_dialog_tags_description">The following discrepancies may have occurred:</string>
+    <string name="idenfy_identification_results_mismatch_dialog_continue_button_title_v2">CONTINUE</string>
+    <string name="idenfy_identification_results_mismatch_dialog_continue_disabled_button_title_v2">CONTINUE IN **x** …</string>
 
     <!--Idenfy Identification Results Suspected View V2-->
     <string name="idenfy_identification_results_suspected_view_title_v2">Your information has been submitted</string>
