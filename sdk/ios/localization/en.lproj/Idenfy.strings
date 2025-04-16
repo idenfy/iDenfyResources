@@ -581,6 +581,12 @@
 "idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo" = "Uploading second proof of address photo…";
 
 /*Idenfy Alerts*/
+/*Country restriction Error Messages*/
+"idenfy_alert_country_restriction_title" = "Country-based verification restriction";
+"idenfy_alert_country_restriction_message_part_1" = "Verifications from";
+"idenfy_alert_country_restriction_message_part_2" = "are restricted based on policy settings.";
+"idenfy_alert_country_restriction_button_title" = "CONTINUE";
+
 /*Mobile App Error Messages*/
 "idenfy_alert_mobile_app_not_allowed_title" = "Verification using mobile app is not allowed!";
 "idenfy_alert_mobile_app_not_allowed_message" = "To pass verification, you must use other verification methods";
@@ -672,3 +678,21 @@
 "idenfy_face_authentication_quick_authentication_loading_alert_title" = "Authenticating...";
 "idenfy_face_authentication_quick_authentication_face_loading_description_v2" = "Please hold steady and look straight ahead!";
 "idenfy_face_authentication_quick_authentication_face_loading_success_description_v2" = "Perfect! Please wait a couple of seconds while we analyse your information.";
+
+/* Bank Verification View */
+"idenfy_bank_verification_title" = "Verify bank details";
+"idenfy_bank_verification_description" = "You’ll be redirected to your selected bank’s login page to securely verify your account.";
+"idenfy_bank_verification_country_selection_hint" = "Country";
+"idenfy_bank_verification_bank_selection_hint" = "Bank";
+"idenfy_bank_verification_bank_not_listed_checkbox_title" = "My bank is not listed here";
+"idenfy_bank_verification_bank_not_listed_information_alert_title" = "My bank is not listed here";
+"idenfy_bank_verification_bank_not_listed_information_alert_description" = "If your bank isn’t listed, select this option to proceed to the next step without verification.";
+"idenfy_bank_verification_bank_not_listed_information_alert_button_title" = "OK";
+"idenfy_bank_verification_agree_to_terms_checkbox_title" = "I agree to share my bank details with the party requesting verification";
+"idenfy_bank_verification_continue_button_title" = "VERIFY BANK DETAILS";
+"idenfy_bank_verification_continue_button_continue_title" = "CONTINUE";
+"idenfy_bank_verification_continue_button_skip_title" = "SKIP VERIFICATION AND CONTINUE";
+"idenfy_bank_verification_success_status_title" = "Bank details verification completed";
+"idenfy_bank_verification_success_status_description" = "Your bank verification was successful. You can now proceed to the next step.";
+"idenfy_bank_verification_failure_status_title" = "Bank details verification was unsuccessful";
+"idenfy_bank_verification_failure_status_description" = "Your bank verification was unsuccessful. Please try again or try another bank.";
