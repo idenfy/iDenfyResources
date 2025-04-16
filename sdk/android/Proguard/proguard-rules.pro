@@ -13,14 +13,9 @@
   public *;
 }
 
--keep public class com.idenfy.idenfySdk.api** {
-  public protected *;
-  public *;
-}
 -keeppackagenames com.idenfy.idenfySdk.api**
 -keep class com.idenfy.idenfySdk.api**  { *; }
 -keep class com.idenfy.idenfySdk.api.logging**  { *; }
-
 
 -keep public class com.idenfy.idenfySdk.SdkResponseModels** {
   public protected *;
@@ -119,6 +114,10 @@
   @com.squareup.moshi.FromJson *;
   @com.squareup.moshi.ToJson *;
 }
+
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.bankverification.domain.models.**
+-keep class com.idenfy.idenfySdk.features.bankverification.domain.models.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.features.bankverification.domain.models.** { *; }
 
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.nfcreading.models.**
 -keep class com.idenfy.idenfySdk.nfcreading.models.** { *; }
@@ -302,3 +301,40 @@
 # Prevent stripping TensorFlow Lite delegate classes if using GPU or NNAPI delegates
 -keep class org.tensorflow.lite.gpu.** { *; }
 -keep class org.tensorflow.lite.nnapi.** { *; }
+
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.idenfycore.extensions.**
+-keep class com.idenfy.idenfySdk.idenfycore.extensions.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.idenfycore.extensions.** { *; }
+
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.languageselection.**
+-keep class com.idenfy.idenfySdk.languageselection.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.languageselection.** { *; }
+
+-keep public class com.idenfy.idenfySdk.core.presentation.view.** {
+    public protected *;
+}
+
+-keep public class com.idenfy.idenfySdk.core.presentation.interfaces.** {
+    public protected *;
+}
+
+-keep public class com.idenfy.idenfySdk.liveness.domain.managers.LivenessCheckProcessorDelegate {
+    public protected *;
+}
+
+-keep public class com.idenfy.idenfySdk.liveness.idcheck.domain.utils.ProcessingDelegate {
+    public protected *;
+}
+
+-keep public class com.idenfy.idenfySdk.di.NFCDIProvider {
+    public protected *;
+}
+
+-keep public class com.idenfy.idenfySdk.nfcreading.domain.usecases.NFCReadingUseCase {
+    public protected *;
+}
+
+-keep public class com.idenfy.idenfySdk.api** {
+  public protected *;
+  public *;
+}
