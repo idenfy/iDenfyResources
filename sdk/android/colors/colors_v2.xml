@@ -32,4 +32,6 @@
     <color name="idenfyWhite">#ffffff</color>
     <color name="idenfyWarningLightYellowV2">#FFF3E0</color>
     <color name="idenfyWarningYellowV2">#FF9800</color>
+    <color name="idenfyBackgroundGreenV2">#E8f5E9</color>
+    <color name="idenfyBorderGreenV2">#00C853</color>
 </resources>
