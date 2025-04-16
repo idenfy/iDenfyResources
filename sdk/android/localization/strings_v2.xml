@@ -602,4 +602,21 @@
     <string name="idenfy_face_authentication_quick_authentication_loading_alert_title">Authenticating…</string>
     <string name="idenfy_face_authentication_quick_authentication_face_loading_description_v2">Please hold steady and look straight ahead!</string>
     <string name="idenfy_face_authentication_quick_authentication_face_loading_success_description_v2">Perfect! Please wait a couple of seconds while we analyse your information.</string>
+
+    <!-- Bank Verification View-->
+    <string name="idenfy_bank_verification_title">Verify bank details</string>
+    <string name="idenfy_bank_verification_description">You’ll be redirected to your selected bank’s login page to securely verify your account.</string>
+    <string name="idenfy_bank_verification_country_selection_hint">Country</string>
+    <string name="idenfy_bank_verification_bank_selection_hint">Bank</string>
+    <string name="idenfy_bank_verification_bank_not_listed_checkbox_title">My bank is not listed here</string>
+    <string name="idenfy_bank_verification_bank_not_listed_information_alert_title">My bank is not listed here</string>
+    <string name="idenfy_bank_verification_bank_not_listed_information_alert_description">If your bank isn’t listed, select this option to proceed to the next step without verification.</string>
+    <string name="idenfy_bank_verification_agree_to_terms_checkbox_title">I agree to share my bank details with the party requesting verification</string>
+    <string name="idenfy_bank_verification_continue_button_title">VERIFY BANK DETAILS</string>
+    <string name="idenfy_bank_verification_continue_button_continue_title">CONTINUE</string>
+    <string name="idenfy_bank_verification_continue_button_skip_title">SKIP VERIFICATION AND CONTINUE</string>
+    <string name="idenfy_bank_verification_success_status_title">Bank details verification completed</string>
+    <string name="idenfy_bank_verification_success_status_description">Your bank verification was successful. You can now proceed to the next step.</string>
+    <string name="idenfy_bank_verification_failure_status_title">Bank details verification was unsuccessful</string>
+    <string name="idenfy_bank_verification_failure_status_description">Your bank verification was unsuccessful. Please try again or try another bank.</string>
 </resources>
