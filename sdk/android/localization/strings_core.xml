@@ -25,6 +25,12 @@
     <string name="idenfy_identification_results_title_additional_info_uploading_second_proof_of_address_photo">Uploading second proof of address photo…</string>
 
     <!--Idenfy Alerts-->
+    <!--Country restriction Error Messages -->
+    <string name="idenfy_alert_country_restriction_title">Country-based verification restriction</string>
+    <string name="idenfy_alert_country_restriction_message_part_1">Verifications from</string>
+    <string name="idenfy_alert_country_restriction_message_part_2">are restricted based on policy settings.</string>
+    <string name="idenfy_alert_country_restriction_button_title">CONTINUE</string>
+
     <!--Mobile App Error Messages -->
     <string name="idenfy_alert_mobile_app_not_allowed_title">Verification using mobile app is not allowed!</string>
     <string name="idenfy_alert_mobile_app_not_allowed_message">To pass verification, you must use other verification methods</string>
