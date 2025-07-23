@@ -279,9 +279,6 @@
 -keepattributes *Annotation*
 -keepattributes Exceptions
 -keepattributes SourceFile,LineNumberTable
--keep class com.huawei.hianalytics.**{*;}
--keep class com.huawei.updatesdk.**{*;}
--keep class com.huawei.hms.**{*;}
 
 #Tensorflow
 -keep class org.tensorflow.lite.annotations.UsedByReflection
