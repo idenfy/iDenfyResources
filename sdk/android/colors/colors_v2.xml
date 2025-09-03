@@ -34,4 +34,8 @@
     <color name="idenfyWarningYellowV2">#FF9800</color>
     <color name="idenfyBackgroundGreenV2">#E8f5E9</color>
     <color name="idenfyBorderGreenV2">#00C853</color>
+    <color name="idenfyPurpleColor">#734BFB</color>
+    <color name="idenfyPurpleBackgroundColor">#EFEBFF</color>
+    <color name="idenfyLightBlueColor">#E9F2FF</color>
+    <color name="idenfyBlueColor">#1E7AFD</color>
 </resources>
