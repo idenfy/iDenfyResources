@@ -11,6 +11,7 @@
     <string name="IDENFY_TOO_MANY_REATTEMPTS_MESSAGE">Too many attempts!</string>
     <string name="IDENFY_NFC_FAILED_MESSAGE">NFC authentication failed!</string>
     <string name="IDENFY_NFC_REQUIRED_MESSAGE">Device with NFC required!</string>
+    <string name="IDENFY_CONTACT_VERIFICATION_EXPIRED_MESSAGE">Unfortunately, we couldn\'t verify your phone number because the time limit expired or you used all your attempts. Your ID verification has ended.</string>
 
     <!--Idenfy navigation-->
     <string name="idenfy_common_title_navigation_back">Back</string>
