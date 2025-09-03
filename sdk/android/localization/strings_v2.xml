@@ -101,6 +101,16 @@
     <string name="idenfy_documents_selection_view_list_item_document_type_address_card_title_v2">Address card</string>
     <string name="idenfy_documents_selection_view_list_item_document_type_social_security_card_title_v2">Social security card</string>
     <string name="idenfy_documents_selection_view_list_item_document_type_work_permit_title_v2">Work permit</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_bank_id_se_title_v2">BankID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_bank_id_cz_title_v2">BankID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_bank_id_no_title_v2">BankID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_clear_title_v2">Clear</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_one_id_title_v2">OneID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_smart_id_title_v2">Smart-ID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_ftn_title_v2">FTN</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_verimi_title_v2">Verimi</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_mit_id_title_v2">MitID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_spid_title_v2">SPID</string>
 
     <!--Idenfy Confirmation View V2-->
     <string name="idenfy_confirmation_view_information_title_v2">Confirm document type</string>
@@ -619,4 +629,55 @@
     <string name="idenfy_bank_verification_success_status_description">Your bank verification was successful. You can now proceed to the next step.</string>
     <string name="idenfy_bank_verification_failure_status_title">Bank details verification was unsuccessful</string>
     <string name="idenfy_bank_verification_failure_status_description">Your bank verification was unsuccessful. Please try again or try another bank.</string>
+
+    <!-- Email Verification View-->
+    <string name="idenfy_email_verification_title">Verify email address</string>
+    <string name="idenfy_email_verification_description">You’ll get a 6-digit code to securely verify your email address.</string>
+    <string name="idenfy_email_verification_verify_email_code_failed_status_title">The code you entered is incorrect. Try again or request a new verification code.</string>
+    <string name="idenfy_email_verification_verify_email_code_retry_status_title_part_1">Please wait</string>
+    <string name="idenfy_email_verification_verify_email_code_retry_status_title_part_2">before resending the code or changing your email.</string>
+    <string name="idenfy_email_verification_verify_email_code_success_status_title">A new verification code has been sent to your email.</string>
+    <string name="idenfy_email_verification_code_expiration_title">Code expires in</string>
+    <string name="idenfy_email_verification_resend_code_title">Resend verification code</string>
+    <string name="idenfy_email_verification_did_not_get_code_title">Didn\'t get the code? Check spam or</string>
+    <string name="idenfy_email_verification_use_different_email_title">Use a different email address</string>
+    <string name="idenfy_email_verification_container_title">Please verify your email address</string>
+    <string name="idenfy_email_verification_container_description">Enter your email address to receive a 6-digit verification code.</string>
+    <string name="idenfy_email_verification_email_input_hint_title">Email address</string>
+    <string name="idenfy_email_verification_send_code_button_title">SEND CODE</string>
+    <string name="idenfy_email_verification_verify_button_title">VERIFY</string>
+
+    <!-- SMS Verification View-->
+    <string name="idenfy_sms_verification_title">Verify phone number</string>
+    <string name="idenfy_sms_verification_description">You’ll get a 4-digit code via SMS to securely verify your phone number.</string>
+    <string name="idenfy_sms_verification_verify_sms_code_failed_status_title">The code you entered is incorrect. Try again or request a new verification code.</string>
+    <string name="idenfy_sms_verification_verify_sms_code_retry_status_title_part_1">Please wait</string>
+    <string name="idenfy_sms_verification_verify_sms_code_retry_status_title_part_2">before resending the code or changing your phone number.</string>
+    <string name="idenfy_sms_verification_verify_sms_code_success_status_title">A new verification code has been sent via SMS.</string>
+    <string name="idenfy_sms_verification_code_expiration_title">Code expires in</string>
+    <string name="idenfy_sms_verification_resend_code_title">Resend verification code</string>
+    <string name="idenfy_sms_verification_did_not_get_code_title">Didn\'t get the code?</string>
+    <string name="idenfy_sms_verification_use_different_phone_title">Use a different phone number</string>
+    <string name="idenfy_sms_verification_container_title">Please verify your phone number</string>
+    <string name="idenfy_sms_verification_container_description">Enter your phone number to receive a 4-digit verification code.</string>
+    <string name="idenfy_sms_verification_phone_input_hint_title">Phone number</string>
+    <string name="idenfy_sms_verification_send_code_button_title">SEND CODE</string>
+    <string name="idenfy_sms_verification_verify_button_title">VERIFY</string>
+
+    <!-- EID Session View-->
+    <string name="idenfy_eid_session_title_part_1">Scan QR code for</string>
+    <string name="idenfy_eid_session_title_part_2">verification</string>
+    <string name="idenfy_eid_session_description_part_1">Scan this QR code with your phone\'s camera. It will open a secure link to continue your</string>
+    <string name="idenfy_eid_session_description_part_2">verification.</string>
+    <string name="idenfy_eid_session_button_title">CONTINUE ON THIS DEVICE</string>
+    <string name="idenfy_eid_session_personal_code_verify_title">Verify with</string>
+    <string name="idenfy_eid_session_personal_code_verify_description">To verify your identity, please provide your personal code.</string>
+    <string name="idenfy_eid_session_personal_code_verify_code_description_part_1">To finish the identity verification, open the</string>
+    <string name="idenfy_eid_session_personal_code_verify_code_description_part_2">app and confirm the verification code.</string>
+    <string name="idenfy_eid_session_personal_code_verify_input_hint">Personal code</string>
+    <string name="idenfy_eid_session_personal_code_verify_input_error_message">Please enter a valid personal code!</string>
+    <string name="idenfy_eid_session_personal_code_verify_expiration_title">Verification code will expire in</string>
+    <string name="idenfy_eid_session_personal_code_verify_error_message">User with this personal code was not found.</string>
+    <string name="idenfy_eid_session_personal_code_verify_continue_button_title">CONTINUE</string>
+    <string name="idenfy_eid_session_personal_code_verify_continue_button_cancel_title">CANCEL</string>
 </resources>
