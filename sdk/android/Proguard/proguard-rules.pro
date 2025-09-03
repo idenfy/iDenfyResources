@@ -335,3 +335,6 @@
   public protected *;
   public *;
 }
+
+-keep class com.idenfy.idenfySdk.camerasession.documentscamerasession.documentangledetection.utils.OpenCVInitializer { *; }
+-keep class com.idenfy.idenfySdk.camerasession.documentscamerasession.documentangledetection.utils.ScanUtils { *; }
