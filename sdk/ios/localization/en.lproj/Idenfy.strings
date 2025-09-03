@@ -99,6 +99,16 @@
 "idenfy_documents_selection_view_list_item_document_type_address_card_title_v2" = "Address card";
 "idenfy_documents_selection_view_list_item_document_type_social_security_card_title_v2" = "Social security card";
 "idenfy_documents_selection_view_list_item_document_type_work_permit_title_v2" = "Work permit";
+"idenfy_documents_selection_view_list_item_document_type_bank_id_se_title_v2" = "BankID";
+"idenfy_documents_selection_view_list_item_document_type_bank_id_cz_title_v2" = "BankID";
+"idenfy_documents_selection_view_list_item_document_type_bank_id_no_title_v2" = "BankID";
+"idenfy_documents_selection_view_list_item_document_type_clear_title_v2" = "Clear";
+"idenfy_documents_selection_view_list_item_document_type_one_id_title_v2" = "OneID";
+"idenfy_documents_selection_view_list_item_document_type_smart_id_title_v2" = "Smart-ID";
+"idenfy_documents_selection_view_list_item_document_type_ftn_title_v2" = "FTN";
+"idenfy_documents_selection_view_list_item_document_type_verimi_title_v2" = "Verimi";
+"idenfy_documents_selection_view_list_item_document_type_mit_id_title_v2" = "MitID";
+"idenfy_documents_selection_view_list_item_document_type_spid_title_v2" = "SPID";
 
 /*Idenfy Confirmation View V2*/
 "idenfy_confirmation_view_information_title_v2" = "Confirm document type";
@@ -567,6 +577,7 @@
 "IDENFY_TOKEN_NOT_VALID_MESSAGE" = "Session expired!";
 "IDENFY_TOO_MANY_REATTEMPTS_MESSAGE" = "Too many attempts!";
 "IDENFY_NFC_FAILED_MESSAGE" = "NFC authentication failed!";
+"IDENFY_CONTACT_VERIFICATION_EXPIRED_MESSAGE" = "Unfortunately, we couldn't verify your phone number because the time limit expired or you used all your attempts. Your ID verification has ended.";
 
 /*Idenfy navigation*/
 "idenfy_common_title_navigation_back" = "Back";
@@ -696,3 +707,54 @@
 "idenfy_bank_verification_success_status_description" = "Your bank verification was successful. You can now proceed to the next step.";
 "idenfy_bank_verification_failure_status_title" = "Bank details verification was unsuccessful";
 "idenfy_bank_verification_failure_status_description" = "Your bank verification was unsuccessful. Please try again or try another bank.";
+
+/* Email Verification View */
+"idenfy_email_verification_title" = "Verify email address";
+"idenfy_email_verification_description" = "You’ll get a 6-digit code to securely verify your email address.";
+"idenfy_email_verification_verify_email_code_failed_status_title" = "The code you entered is incorrect. Try again or request a new verification code.";
+"idenfy_email_verification_verify_email_code_retry_status_title_part_1" = "Please wait";
+"idenfy_email_verification_verify_email_code_retry_status_title_part_2" = "before resending the code or changing your email.";
+"idenfy_email_verification_verify_email_code_success_status_title" = "A new verification code has been sent to your email.";
+"idenfy_email_verification_code_expiration_title" = "Code expires in";
+"idenfy_email_verification_resend_code_title" = "Resend verification code";
+"idenfy_email_verification_did_not_get_code_title" = "Didn't get the code? Check spam or";
+"idenfy_email_verification_use_different_email_title" = "Use a different email address";
+"idenfy_email_verification_container_title" = "Please verify your email address";
+"idenfy_email_verification_container_description" = "Enter your email address to receive a 6-digit verification code.";
+"idenfy_email_verification_email_input_hint_title" = "Email address";
+"idenfy_email_verification_send_code_button_title" = "SEND CODE";
+"idenfy_email_verification_verify_button_title" = "VERIFY";
+
+/* SMS Verification View */
+"idenfy_sms_verification_title" = "Verify phone number";
+"idenfy_sms_verification_description" = "You’ll get a 4-digit code via SMS to securely verify your phone number.";
+"idenfy_sms_verification_verify_sms_code_failed_status_title" = "The code you entered is incorrect. Try again or request a new verification code.";
+"idenfy_sms_verification_verify_sms_code_retry_status_title_part_1" = "Please wait";
+"idenfy_sms_verification_verify_sms_code_retry_status_title_part_2" = "before resending the code or changing your phone number.";
+"idenfy_sms_verification_verify_sms_code_success_status_title" = "A new verification code has been sent via SMS.";
+"idenfy_sms_verification_code_expiration_title" = "Code expires in";
+"idenfy_sms_verification_resend_code_title" = "Resend verification code";
+"idenfy_sms_verification_did_not_get_code_title" = "Didn't get the code?";
+"idenfy_sms_verification_use_different_phone_title" = "Use a different phone number";
+"idenfy_sms_verification_container_title" = "Please verify your phone number";
+"idenfy_sms_verification_container_description" = "Enter your phone number to receive a 4-digit verification code.";
+"idenfy_sms_verification_phone_input_hint_title" = "Phone number";
+"idenfy_sms_verification_send_code_button_title" = "SEND CODE";
+"idenfy_sms_verification_verify_button_title" = "VERIFY";
+
+/* EID Session View */
+"idenfy_eid_session_title_part_1" = "Scan QR code for";
+"idenfy_eid_session_title_part_2" = "verification";
+"idenfy_eid_session_description_part_1" = "Scan this QR code with your phone\'s camera. It will open a secure link to continue your";
+"idenfy_eid_session_description_part_2" = "verification.";
+"idenfy_eid_session_button_title" = "CONTINUE ON THIS DEVICE";
+"idenfy_eid_session_personal_code_verify_title" = "Verify with";
+"idenfy_eid_session_personal_code_verify_description" = "To verify your identity, please provide your personal code.";
+"idenfy_eid_session_personal_code_verify_code_description_part_1" = "To finish the identity verification, open the";
+"idenfy_eid_session_personal_code_verify_code_description_part_2" = "app and confirm the verification code.";
+"idenfy_eid_session_personal_code_verify_input_hint" = "Personal code";
+"idenfy_eid_session_personal_code_verify_input_error_message" = "Please enter a valid personal code!";
+"idenfy_eid_session_personal_code_verify_expiration_title" = "Verification code will expire in";
+"idenfy_eid_session_personal_code_verify_error_message" = "User with this personal code was not found.";
+"idenfy_eid_session_personal_code_verify_continue_button_title" = "CONTINUE";
+"idenfy_eid_session_personal_code_verify_continue_button_cancel_title" = "CANCEL";
