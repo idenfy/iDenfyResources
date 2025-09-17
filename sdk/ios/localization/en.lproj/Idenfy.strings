@@ -110,51 +110,6 @@
 "idenfy_documents_selection_view_list_item_document_type_mit_id_title_v2" = "MitID";
 "idenfy_documents_selection_view_list_item_document_type_spid_title_v2" = "SPID";
 
-/*Idenfy Confirmation View V2*/
-"idenfy_confirmation_view_information_title_v2" = "Confirm document type";
-"idenfy_confirmation_view_information_description_type_id_card_description_placeholder_v2" = "Please have your **identity card** ready to identify";
-"idenfy_confirmation_view_information_description_type_passport_description_placeholder_v2" = "Please have your **passport** ready to identify";
-"idenfy_confirmation_view_information_description_type_residence_permit_placeholder_v2" = "Please have your **residence permit** ready to identify";
-"idenfy_confirmation_view_information_description_type_driver_licence_placeholder_v2" = "Please have your **driver\'s license** ready to identify";
-"idenfy_confirmation_view_information_description_type_other_placeholder_v2" = "Please have your **document** ready to identify";
-"idenfy_confirmation_view_information_description_part_1_v2" = "Please have your";
-"idenfy_confirmation_view_information_document_type_id_card_description_part_2_v2" = "identity card";
-"idenfy_confirmation_view_information_document_type_passport_description_part_2_v2" = "passport";
-"idenfy_confirmation_view_information_document_type_residence_permit_description_part_2_v2" = "residence permit";
-"idenfy_confirmation_view_information_document_type_driver_licence_description_part_2_v2" = "driver\'s license";
-"idenfy_confirmation_view_information_document_type_other_description_part_2_v2" = "document";
-"idenfy_confirmation_view_information_document_type_visa_description_part_2_v2" = "visa";
-"idenfy_confirmation_view_information_document_type_border_crossing_description_part_2_v2" = "border crossing card";
-"idenfy_confirmation_view_information_document_type_asylum_description_part_2_v2" = "asylum residence permit";
-"idenfy_confirmation_view_information_document_type_national_passport_description_part_2_v2" = "national passport";
-"idenfy_confirmation_view_information_document_type_provisional_driver_license_description_part_2_v2" = "provisional driver license";
-"idenfy_confirmation_view_information_document_type_voter_card_description_part_2_v2" = "voter card";
-"idenfy_confirmation_view_information_document_old_id_card_description_part_2_v2" = "old ID card";
-"idenfy_confirmation_view_information_document_travel_card_description_part_2_v2" = "travel card";
-"idenfy_confirmation_view_information_document_photo_card_description_part_2_v2" = "photo card";
-"idenfy_confirmation_view_information_document_military_card_description_part_2_v2" = "military (veteran) card";
-"idenfy_confirmation_view_information_proof_of_age_card_description_part_2_v2" = "proof of age card";
-"idenfy_confirmation_view_information_diplomatic_id_card_description_part_2_v2" = "diplomatic ID";
-"idenfy_confirmation_view_information_pan_card_description_part_2_v2" = "PAN card";
-"idenfy_confirmation_view_information_aadhaar_card_description_part_2_v2" = "aadhaar card";
-"idenfy_confirmation_view_information_address_card_description_part_2_v2" = "address card";
-"idenfy_confirmation_view_information_social_security_card_description_part_2_v2" = "social security card";
-"idenfy_confirmation_view_information_document_work_permit_description_part_2_v2" = "work permit";
-"idenfy_confirmation_view_information_description_part_3_v2" = "ready to identify";
-"idenfy_confirmation_view_document_steps_title_part_placeholder_v2" = "Verification will take **5** steps:";
-"idenfy_confirmation_view_document_steps_title_part_1_v2" = "Verification will take";
-"idenfy_confirmation_view_document_steps_title_part_2_v2" = "5";
-"idenfy_confirmation_view_document_steps_title_part_3_v2" = "steps:";
-"idenfy_confirmation_view_document_steps_step_front_title_v2" = "Document front photo";
-"idenfy_confirmation_view_document_steps_step_back_title_v2" = "Document back photo";
-"idenfy_confirmation_view_document_steps_step_face_title_v2" = "Face photo";
-"idenfy_confirmation_view_document_steps_step_liveliness_title_v2" = "Liveness check";
-"idenfy_confirmation_view_document_steps_step_passport_cover_title_v2" = "Passport cover photo";
-"idenfy_confirmation_view_document_steps_step_proof_of_address_title_v2" = "Proof of address document photo";
-"idenfy_confirmation_view_document_steps_step_second_proof_of_address_title_v2" = "Second proof of address document photo";
-"idenfy_confirmation_view_upload_image_title_v2" = "You can upload photos in every step";
-"idenfy_confirmation_view_begin_identification_title_v2" = "CONTINUE";
-
 /*Idenfy Camera OnBoarding View V2*/
 "idenfy_camera_onboarding_view_continue_button_title_v2" = "CONTINUE";
 "idenfy_camera_onboarding_view_continue_disabled_button_title_v2" = "CONTINUE IN **x** …";
