@@ -111,6 +111,12 @@
     <string name="idenfy_documents_selection_view_list_item_document_type_verimi_title_v2">Verimi</string>
     <string name="idenfy_documents_selection_view_list_item_document_type_mit_id_title_v2">MitID</string>
     <string name="idenfy_documents_selection_view_list_item_document_type_spid_title_v2">SPID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_la_wallet_title_v2">LA Wallet</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_samsung_wallet_title_v2">Samsung Wallet</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_its_me_title_v2">itsme®</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_moje_id_cz_title_v2">MojeID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_moje_id_pl_title_v2">MojeID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_yoti_id_title_v2">Yoti ID</string>
 
     <!--Idenfy Camera OnBoarding View V2-->
     <string name="idenfy_camera_onboarding_view_continue_button_title_v2">CONTINUE</string>
@@ -450,9 +456,9 @@
 
     <!--Idenfy Identification Results Suspected View V2-->
     <string name="idenfy_identification_results_suspected_view_title_v2">Your information has been submitted</string>
+    <string name="idenfy_identification_results_suspected_view_description_part_1_v2">Thank You</string>
     <string name="idenfy_identification_results_suspected_view_description_v2">If you have any questions, please contact our customer support team</string>
-    <string name="idenfy_identification_results_suspected_view_email_v2">support@idenfy.com</string>
-    <string name="idenfy_identifiaction_results_suspected_view_continue_button_title_v2">CONTINUE</string>
+    <string name="idenfy_identification_results_suspected_view_continue_button_title_v2">CONTINUE</string>
 
     <!--Idenfy Identification Results Success View V2-->
     <string name="idenfy_identification_results_success_fragment_title_v2">Verification approved</string>
@@ -483,7 +489,6 @@
     <string name="idenfy_manual_reviewing_status_failed_view_information_title_v2">Verification failed</string>
     <string name="idenfy_manual_reviewing_status_failed_view_information_description_v2">We could not confirm your identity</string>
     <string name="idenfy_manual_reviewing_status_failed_view_information_support_description_part_1_v2">Please contact</string>
-    <string name="idenfy_manual_reviewing_status_failed_view_information_support_email_v2">support@idenfy.com</string>
     <string name="idenfy_manual_reviewing_status_failed_view_information_support_description_part_2_v2">for further support</string>
     <string name="idenfy_manual_reviewing_status_failed_view_continue_button_v2">CONTINUE</string>
 
@@ -513,7 +518,8 @@
     <string name="idenfy_nfc_required_view_information_enable_nfc_title_v2">NFC not enabled</string>
     <string name="idenfy_nfc_required_view_information_enable_nfc_description_v2">Please enable NFC in device settings before continuing</string>
     <string name="idenfy_nfc_required_view_information_no_nfc_title_v2">NFC Unavailable</string>
-    <string name="idenfy_nfc_required_view_information_no_nfc_description_v2">Your device does not support NFC. For further support, please contact</string>
+    <string name="idenfy_nfc_required_view_information_no_nfc_description_v2">Your device does not support NFC.</string>
+    <string name="idenfy_nfc_required_view_information_no_nfc_description_part_2_v2">For further support, please contact</string>
     <string name="idenfy_nfc_required_view_information_button_enable_nfc_title_v2">ENABLE NFC</string>
     <string name="idenfy_nfc_required_view_information_button_title_v2">CONTINUE</string>
 
@@ -535,8 +541,8 @@
 
     <!-- Idenfy Additional Support View V2-->
     <string name="idenfy_additional_support_view_title">You have canceled the verification process</string>
-    <string name="idenfy_additional_support_view_description">The verification process was not performed. If you have any questions, please contact our customer support team.</string>
-    <string name="idenfy_additional_support_view_email">support@idenfy.com</string>
+    <string name="idenfy_additional_support_view_description">The verification process was not performed.</string>
+    <string name="idenfy_additional_support_view_email">If you have any questions, please contact our customer support team</string>
     <string name="idenfy_additional_support_view_button_title">GO BACK</string>
 
     <!-- Idenfy Internet Connection V2-->
