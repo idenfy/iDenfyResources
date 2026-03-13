@@ -1,15 +1,28 @@
 /**V2**/
 /*Idenfy Splash Screen V2*/
 "idenfy_splash_screen_title_v2" = "Quick and reliable identity verification";
+"idenfy_splash_screen_description_v2" = "powered by";
 
 /*Idenfy Privacy Policy View V2*/
-"idenfy_privacy_policy_title_v2" = "Privacy policy";
-"idenfy_privacy_policy_agree_button_title_v2" = "AGREE";
-"idenfy_privacy_policy_disagree_button_title_v2" = "DISAGREE";
-"idenfy_privacy_policy_alert_title_v2" = "INFORMATION";
-"idenfy_privacy_policy_alert_description_v2" = "To continue the process, you must agree to the rules. If you do not agree, cancel the verification process or close the window.";
-"idenfy_privacy_policy_alert_agree_button_title_v2" = "I WANT TO AGREE";
-"idenfy_privacy_policy_alert_cancel_button_title_v2" = "CANCEL VERIFICATION";
+"idenfy_privacy_policy_title_v2" = "Verify your identity — securely";
+"idenfy_privacy_policy_description_v2" = "Protecting your account and preventing fraud through secure verification.";
+"idenfy_privacy_policy_agree_button_title_v2" = "AGREE & CONTINUE SECURELY";
+"idenfy_privacy_policy_text_part_1" = "By clicking below, you agree to the service provider „iDenfy“";
+"idenfy_privacy_policy_text_part_2" = "Privacy policy";
+"idenfy_privacy_policy_text_part_3" = "and consent to the processing of your biometric data for this verification.";
+"idenfy_privacy_policy_data_protection_title" = "Data protection";
+"idenfy_privacy_policy_secure_encryption_title" = "Secure encrypted";
+"idenfy_privacy_policy_limited_access_title" = "Limited access";
+"idenfy_privacy_policy_never_sold_title" = "Never sold of shared";
+"idenfy_privacy_policy_used_for_verification_title" = "Used only for verification";
+"idenfy_privacy_policy_process_title" = "The process";
+"idenfy_privacy_policy_identity_photo_step_title" = "Photo of your identity document";
+"idenfy_privacy_policy_selfie_step_title" = "Quick selfie scan";
+"idenfy_privacy_policy_automated_verification_step_title" = "Automated verification";
+"idenfy_privacy_policy_compliance_title" = "Compliant with global standards";
+"idenfy_privacy_policy_compliance_description" = "Our platform maintains rigorous security certifications, including %ISO 27001%, %SOC 2%, %GDPR%, and %CCPA%, to guarantee your data is protected by world-class privacy protocols.";
+"idenfy_privacy_policy_partner_text_part_1" = "Additionally, you acknowledge the";
+"idenfy_privacy_policy_partner_text_part_2" = "Policies & Agreements.";
 
 /*Idenfy Questionnaire View V2*/
 "idenfy_questionnaire_continue_button_title_v2" = "CONTINUE";
@@ -70,6 +83,16 @@
 "idenfy_country_selection_view_information_description_v2" = "Please choose the country where your document was issued";
 "idenfy_country_selection_view_searchbar_hint_v2" = "Search document\'s country…";
 
+/*Idenfy Country And Document Selection View V2*/
+"idenfy_country_and_document_selection_view_information_title_part_1" = "Select country";
+"idenfy_country_and_document_selection_view_information_title_part_2" = "and document type";
+"idenfy_country_and_document_selection_view_information_description_part_1" = "Select the country that issued your document";
+"idenfy_country_and_document_selection_view_information_description_part_2" = "and the document type for verification.";
+"idenfy_country_and_document_selection_view_information_description_auto_detection_flow" = "To ensure the best verification results, please confirm your document details manually.";
+"idenfy_country_and_document_selection_view_country_selection_hint" = "Country";
+"idenfy_country_and_document_selection_view_document_selection_section_title" = "Document type";
+"idenfy_country_and_document_selection_view_continue_button_title" = "CONTINUE";
+
 /*Idenfy Language Selection View V2*/
 "idenfy_language_selection_view_information_title_v2" = "Select a language";
 
@@ -109,6 +132,12 @@
 "idenfy_documents_selection_view_list_item_document_type_verimi_title_v2" = "Verimi";
 "idenfy_documents_selection_view_list_item_document_type_mit_id_title_v2" = "MitID";
 "idenfy_documents_selection_view_list_item_document_type_spid_title_v2" = "SPID";
+"idenfy_documents_selection_view_list_item_document_type_la_wallet_title_v2" = "LA Wallet";
+"idenfy_documents_selection_view_list_item_document_type_samsung_wallet_title_v2" = "Samsung Wallet";
+"idenfy_documents_selection_view_list_item_document_type_its_me_title_v2" = "itsme®";
+"idenfy_documents_selection_view_list_item_document_type_moje_id_cz_title_v2" = "MojeID";
+"idenfy_documents_selection_view_list_item_document_type_moje_id_pl_title_v2" = "MojeID";
+"idenfy_documents_selection_view_list_item_document_type_yoti_id_title_v2" = "Yoti ID";
 
 /*Idenfy Camera OnBoarding View V2*/
 "idenfy_camera_onboarding_view_continue_button_title_v2" = "CONTINUE";
@@ -448,9 +477,9 @@
 
 /*Idenfy Identification Results Suspected View V2*/
 "idenfy_identification_results_suspected_view_title_v2" = "Your information has been submitted";
+"idenfy_identification_results_suspected_view_description_part_1_v2" = "Thank You";
 "idenfy_identification_results_suspected_view_description_v2" = "If you have any questions, please contact our customer support team";
-"idenfy_identification_results_suspected_view_email_v2" = "support@idenfy.com";
-"idenfy_identifiaction_results_suspected_view_continue_button_title_v2" = "CONTINUE";
+"idenfy_identification_results_suspected_view_continue_button_title_v2" = "CONTINUE";
 
 /*Idenfy Identification Results Success View V2*/
 "idenfy_identification_results_success_fragment_title_v2" = "Verification approved";
@@ -481,7 +510,6 @@
 "idenfy_manual_reviewing_status_failed_view_information_title_v2" = "Verification Failed";
 "idenfy_manual_reviewing_status_failed_view_information_description_v2" = "We could not confirm your identity";
 "idenfy_manual_reviewing_status_failed_view_information_support_description_part_1_v2" = "Please contact";
-"idenfy_manual_reviewing_status_failed_view_information_support_email_v2" = "support@idenfy.com";
 "idenfy_manual_reviewing_status_failed_view_information_support_description_part_2_v2" = "for further support";
 "idenfy_manual_reviewing_status_failed_view_continue_button_v2" = "CONTINUE";
 
@@ -514,12 +542,13 @@
 
 /*Idenfy NFC Required View V2*/
 "idenfy_nfc_required_view_information_title_v2" = "NFC Unavailable";
-"idenfy_nfc_required_view_information_description_v2" = "Your device does not support NFC. For further support, please contact";
+"idenfy_nfc_required_view_information_description_v2" = "Your device does not support NFC.";
+"idenfy_nfc_required_view_information_no_nfc_description_part_2_v2" = "For further support, please contact";
 
 /*Idenfy Additional Support View V2*/
 "idenfy_additional_support_view_title" = "You have canceled the verification process";
-"idenfy_additional_support_view_description" = "The verification process was not performed. If you have any questions, please contact our customer support team.";
-"idenfy_additional_support_view_email" = "support@idenfy.com";
+"idenfy_additional_support_view_description" = "The verification process was not performed.";
+"idenfy_additional_support_view_email" = "If you have any questions, please contact our customer support team";
 "idenfy_additional_support_view_button_title" = "GO BACK";
 
 /**Shared strings**/
@@ -613,6 +642,13 @@
 "idenfy_document_blur_glare_warning_document_not_found" = "Document is not found!";
 "idenfy_document_blur_glare_warning_blur_detected" = "Blur is detected!";
 "idenfy_document_blur_glare_warning_glare_detected" = "Glare is detected!";
+
+/*Country Document Auto Detection Messages*/
+"idenfy_document_camera_preview_session_view_accepted_documents_alert_title_part_1" = "Accepted documents";
+"idenfy_document_camera_preview_session_view_accepted_documents_alert_title_part_2" = "for";
+"idenfy_document_camera_preview_session_view_accepted_documents_alert_title_part_3" = "and";
+"idenfy_country_document_auto_detection_dialog_title" = "We couldn't verify this specific document type. To continue, please capture one of the accepted documents.";
+"idenfy_country_document_auto_detection_dialog_button_title" = "PROCEED";
 
 ///*System specific*///
 /* <!--Camera Permission Not Enabled Alert--> */
