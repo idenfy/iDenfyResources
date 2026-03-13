@@ -167,9 +167,9 @@
 -keep class com.idenfy.idenfySdk.identificationresults.presentation.state.** { *; }
 -keepclassmembers class com.idenfy.idenfySdk.identificationresults.presentation.state.** { *; }
 
--keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.confirmation.ui.uiviewmodel.**
--keep class com.idenfy.idenfySdk.features.confirmation.ui.uiviewmodel.** { *; }
--keepclassmembers class com.idenfy.idenfySdk.features.confirmation.ui.uiviewmodel.** { *; }
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.onboarding.ui.uiviewmodel.**
+-keep class com.idenfy.idenfySdk.features.onboarding.ui.uiviewmodel.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.features.onboarding.ui.uiviewmodel.** { *; }
 
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.providerselection.domain.models.**
 -keep class com.idenfy.idenfySdk.providerselection.domain.models.** { *; }
@@ -197,9 +197,9 @@
 -keep class com.idenfy.idenfysdk.idenfycore.networking.models.** { *; }
 -keepclassmembers class com.idenfy.idenfysdk.idenfycore.networking.models.** { *; }
 
--keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.confirmation.ui.state.**
--keep class com.idenfy.idenfySdk.features.confirmation.ui.state.** { *; }
--keepclassmembers class com.idenfy.idenfySdk.features.confirmation.ui.state.** { *; }
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.onboarding.ui.state.**
+-keep class com.idenfy.idenfySdk.features.onboarding.ui.state.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.features.onboarding.ui.state.** { *; }
 
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.faceauthentication.api.**
 -keep class com.idenfy.idenfySdk.faceauthentication.api.** { *; }
@@ -209,9 +209,9 @@
 -keep class com.idenfy.idenfySdk.faceauthentication.api.domain.models.** { *; }
 -keepclassmembers class com.idenfy.idenfySdk.faceauthentication.api.domain.models.** { *; }
 
--keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.confirmation.consts.**
--keep class com.idenfy.idenfySdk.features.confirmation.consts.** { *; }
--keepclassmembers class com.idenfy.idenfySdk.features.confirmation.consts.** { *; }
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.onboarding.consts.**
+-keep class com.idenfy.idenfySdk.features.onboarding.consts.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.features.onboarding.consts.** { *; }
 
 -keepnames @kotlin.Metadata class biz.smartengines.**
 -keep class biz.smartengines.** { *; }
