@@ -3,15 +3,28 @@
     <!--*V2*-->
     <!--Idenfy Splash Screen V2-->
     <string name="idenfy_splash_screen_title_v2">Quick and reliable identity verification</string>
+    <string name="idenfy_splash_screen_description_v2">powered by</string>
 
     <!--Idenfy Privacy Policy View V2-->
-    <string name="idenfy_privacy_policy_title_v2">Privacy policy</string>
-    <string name="idenfy_privacy_policy_agree_button_title_v2">AGREE</string>
-    <string name="idenfy_privacy_policy_disagree_button_title_v2">DISAGREE</string>
-    <string name="idenfy_privacy_policy_alert_title_v2">INFORMATION</string>
-    <string name="idenfy_privacy_policy_alert_description_v2">To continue the process, you must agree to the rules. If you do not agree, cancel the verification process or close the window.</string>
-    <string name="idenfy_privacy_policy_alert_agree_button_title_v2">I WANT TO AGREE</string>
-    <string name="idenfy_privacy_policy_alert_cancel_button_title_v2">CANCEL VERIFICATION</string>
+    <string name="idenfy_privacy_policy_title_v2">Verify your identity — securely</string>
+    <string name="idenfy_privacy_policy_description_v2">Protecting your account and preventing fraud through secure verification.</string>
+    <string name="idenfy_privacy_policy_agree_button_title_v2">AGREE &amp; CONTINUE SECURELY</string>
+    <string name="idenfy_privacy_policy_text_part_1">By clicking below, you agree to the service provider „iDenfy“</string>
+    <string name="idenfy_privacy_policy_text_part_2">Privacy Policy</string>
+    <string name="idenfy_privacy_policy_text_part_3">and acknowledge that your biometric data will be processed for this verification.</string>
+    <string name="idenfy_privacy_policy_data_protection_title">Data protection</string>
+    <string name="idenfy_privacy_policy_secure_encryption_title">Secure &amp; encrypted</string>
+    <string name="idenfy_privacy_policy_limited_access_title">Limited access</string>
+    <string name="idenfy_privacy_policy_never_sold_title">Never sold of shared</string>
+    <string name="idenfy_privacy_policy_used_for_verification_title">Used only for verification</string>
+    <string name="idenfy_privacy_policy_process_title">The process</string>
+    <string name="idenfy_privacy_policy_identity_photo_step_title">Photo of your identity document</string>
+    <string name="idenfy_privacy_policy_selfie_step_title">Quick selfie scan</string>
+    <string name="idenfy_privacy_policy_automated_verification_step_title">Automated verification</string>
+    <string name="idenfy_privacy_policy_compliance_title">Compliant with global standards</string>
+    <string name="idenfy_privacy_policy_compliance_description" formatted="false">Our platform maintains rigorous security certifications, including %ISO 27001%, %SOC 2%, %GDPR%, and %CCPA%, to guarantee your data is protected by world-class privacy protocols.</string>
+    <string name="idenfy_privacy_policy_partner_text_part_1">Additionally, you acknowledge the</string>
+    <string name="idenfy_privacy_policy_partner_text_part_2">Policies &amp; Agreements.</string>
 
     <!--Idenfy Questionnaire View V2-->
     <string name="idenfy_questionnaire_continue_button_title_v2">CONTINUE</string>
@@ -66,6 +79,15 @@
     <string name="idenfy_start_identification_predefined_view_information_title_v2">Start identity verification</string>
     <string name="idenfy_start_identification_predefined_view_information_description_v2">Document country of issue</string>
     <string name="idenfy_start_identification_predefined_view_begin_identification_button_v2">Let\'s begin</string>
+
+    <!--Idenfy Country And Document Selection View V2-->
+    <string name="idenfy_country_and_document_selection_view_information_title">Select verification method</string>
+    <string name="idenfy_country_and_document_selection_view_information_description">Choose the fastest way to verify your identity</string>
+    <string name="idenfy_country_and_document_selection_view_information_description_auto_detection_flow">To ensure the best verification results, please confirm your document details manually.</string>
+    <string name="idenfy_country_and_document_selection_view_country_selection_hint">Country</string>
+    <string name="idenfy_country_and_document_selection_view_verification_method_section_title">Verification method</string>
+    <string name="idenfy_country_and_document_selection_view_physical_document_section_title">or use a physical document</string>
+    <string name="idenfy_country_and_document_selection_view_continue_button_title">CONTINUE</string>
 
     <!--Idenfy Country Selection View V2-->
     <string name="idenfy_country_selection_view_information_title_v2">Select issuing country</string>
@@ -373,6 +395,7 @@
     <string name="idenfy_identification_results_identification_status_loading_title_v2">Analysing your verification…</string>
     <string name="idenfy_identification_results_identification_status_loading_description_v2">Please wait while we set things up for you!</string>
     <string name="idenfy_identification_results_identification_status_error_title_v2">Verification failed</string>
+    <string name="idenfy_identification_results_identification_status_suspected_title_v2">Verification may be further investigated</string>
     <string name="idenfy_identification_results_step_front_document_type_id_card_title_v2">Front of identity card</string>
     <string name="idenfy_identification_results_step_back_document_type_id_card_title_v2">Back of identity card</string>
     <string name="idenfy_identification_results_step_passport_cover_title_v2">Front of passport cover</string>
