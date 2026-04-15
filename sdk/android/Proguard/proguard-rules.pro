@@ -45,10 +45,7 @@
 -dontwarn javax.annotation.**
 -dontwarn org.conscrypt.**
 -keepnames class okhttp3.internal.publicsuffix.PublicSuffixDatabase
--dontnote retrofit2.Platform
 -dontwarn retrofit2.Platform$Java8
-
--verbose
 
 -keep class * implements android.arch.lifecycle.GeneratedAdapter {<init>(...);}
 -keep class android.arch.lifecycle.** {*;}
@@ -114,6 +111,10 @@
   @com.squareup.moshi.FromJson *;
   @com.squareup.moshi.ToJson *;
 }
+
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.countryanddocumentselection.domain.models.**
+-keep class com.idenfy.idenfySdk.features.countryanddocumentselection.domain.models.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.features.countryanddocumentselection.domain.models.** { *; }
 
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.bankverification.domain.models.**
 -keep class com.idenfy.idenfySdk.features.bankverification.domain.models.** { *; }
@@ -275,29 +276,9 @@
 -keep class net.idrnd.** { *; }
 
 #ML Kit
--ignorewarnings
 -keepattributes *Annotation*
 -keepattributes Exceptions
 -keepattributes SourceFile,LineNumberTable
-
-#Tensorflow
--keep class org.tensorflow.lite.annotations.UsedByReflection
--keep @org.tensorflow.lite.annotations.UsedByReflection class *
--keepclassmembers class * {
-    @org.tensorflow.lite.annotations.UsedByReflection *;
-}
-
-# TensorFlow Lite rules
--keep class org.tensorflow.** { *; }
--dontwarn org.tensorflow.**
-
-# TFLite Support Library
--keep class org.tensorflow.lite.support.** { *; }
--dontwarn org.tensorflow.lite.support.**
-
-# Prevent stripping TensorFlow Lite delegate classes if using GPU or NNAPI delegates
--keep class org.tensorflow.lite.gpu.** { *; }
--keep class org.tensorflow.lite.nnapi.** { *; }
 
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.idenfycore.extensions.**
 -keep class com.idenfy.idenfySdk.idenfycore.extensions.** { *; }
