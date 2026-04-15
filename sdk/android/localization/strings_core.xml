@@ -93,4 +93,11 @@
     <string name="idenfy_document_blur_glare_warning_document_not_found">Document is not found!</string>
     <string name="idenfy_document_blur_glare_warning_blur_detected">Blur is detected!</string>
     <string name="idenfy_document_blur_glare_warning_glare_detected">Glare is detected!</string>
+
+    <!--Country Document Auto Detection Messages -->
+    <string name="idenfy_document_camera_preview_session_view_accepted_documents_alert_title_part_1">Accepted documents</string>
+    <string name="idenfy_document_camera_preview_session_view_accepted_documents_alert_title_part_2">for</string>
+    <string name="idenfy_document_camera_preview_session_view_accepted_documents_alert_title_part_3">and</string>
+    <string name="idenfy_country_document_auto_detection_dialog_title">We couldn\'t verify this specific document type. To continue, please capture one of the accepted documents.</string>
+    <string name="idenfy_country_document_auto_detection_dialog_button_title">PROCEED</string>
 </resources>
