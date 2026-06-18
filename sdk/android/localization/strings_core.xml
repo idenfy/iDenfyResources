@@ -74,11 +74,12 @@
     <string name="idenfy_document_and_face_camera_results_document_analysis_description">Please wait a moment.</string>
 
     <!--Idenfy Liveness Failed Alert-->
-    <string name="idenfy_alert_positive_button_liveness_default_error">Proceed</string>
+    <string name="idenfy_alert_positive_button_liveness_default_error">PROCEED</string>
     <string name="idenfy_alert_title_liveness_default_error">INFORMATION</string>
     <string name="idenfy_alert_message_liveness_default_error">Liveness check failed, please try again.</string>
     <string name="idenfy_alert_message_liveness_face_timeout_error">Face liveness check time is up. Please try again.</string>
-    <string name="idenfy_alert_message_liveness_face_portait_mode_error">Liveness check failed. Please make sure your phone is in portrait position.</string>
+    <string name="idenfy_alert_message_liveness_locked_out_error">Liveness check temporarily unavailable. Please restart your device and try again.</string>
+    <string name="idenfy_alert_message_liveness_already_uploaded">Liveness check has already been completed.</string>
 
     <!--Idenfy Camera Failed Alert-->
     <string name="idenfy_alert_camera_failure_title">An issue occurred</string>
