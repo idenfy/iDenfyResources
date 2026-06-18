@@ -137,6 +137,14 @@
 "idenfy_documents_selection_view_list_item_document_type_moje_id_cz_title_v2" = "MojeID";
 "idenfy_documents_selection_view_list_item_document_type_moje_id_pl_title_v2" = "MojeID";
 "idenfy_documents_selection_view_list_item_document_type_yoti_id_title_v2" = "Yoti ID";
+"idenfy_documents_selection_view_list_item_document_type_freja_title_v2" = "Freja";
+"idenfy_documents_selection_view_list_item_document_type_handy_signatur_title_v2" = "Handy Signatur";
+"idenfy_documents_selection_view_list_item_document_type_google_wallet_title_v2" = "Google Wallet";
+"idenfy_documents_selection_view_list_item_document_type_mobile_id_title_v2" = "Mobile ID";
+"idenfy_documents_selection_view_list_item_document_type_idin_title_v2" = "iDIN";
+"idenfy_documents_selection_view_list_item_document_type_digi_locker_title_v2" = "DigiLocker";
+"idenfy_documents_selection_view_list_item_document_type_e_phil_id_title_v2" = "ePhilID";
+"idenfy_documents_selection_view_list_item_document_type_phil_sys_title_v2" = "PhilSys";
 
 /*Idenfy Camera OnBoarding View V2*/
 "idenfy_camera_onboarding_view_continue_button_title_v2" = "CONTINUE";
@@ -602,11 +610,12 @@
 "idenfy_alert_message_manual_reviewing_information" = "Because you chose a document other than an id card or passport, we are required to review your case one more time.";
 
 /*Idenfy Liveness Failed Alert*/
-"idenfy_alert_positive_button_liveness_default_error" = "Proceed";
+"idenfy_alert_positive_button_liveness_default_error" = "PROCEED";
 "idenfy_alert_title_liveness_default_error" = "INFORMATION";
 "idenfy_alert_message_liveness_default_error" = "Liveness check failed, please try again.";
+"idenfy_alert_message_liveness_already_uploaded" = "Liveness check has already been completed.";
 "idenfy_alert_message_liveness_face_timeout_error" = "Face liveness check time is up. Please try again.";
-"idenfy_alert_message_liveness_face_portait_mode_error" = "Liveness check failed. Please make sure your phone is in portrait position.";
+"idenfy_alert_message_liveness_locked_out_error" = "Liveness check temporarily unavailable. Please restart your device and try again.";
 
 /*Document Analysis Alert*/
 "idenfy_alert_positive_button_document_analysis_information" = "Continue";
@@ -736,11 +745,14 @@
 /* EID Session View */
 "idenfy_eid_session_title_part_1" = "Scan QR code for";
 "idenfy_eid_session_title_part_2" = "verification";
+"idenfy_eid_session_title_unsupported" = "Unsupported device";
 "idenfy_eid_session_description_part_1" = "Scan this QR code with your phone\'s camera. It will open a secure link to continue your";
 "idenfy_eid_session_description_part_2" = "verification.";
+"idenfy_eid_session_description_unsupported" = "This device does not support the selected verification method. Please choose an alternative verification method or use a different device.";
 "idenfy_eid_session_button_title" = "CONTINUE ON THIS DEVICE";
 "idenfy_eid_session_personal_code_verify_title" = "Verify with";
 "idenfy_eid_session_personal_code_verify_description" = "To verify your identity, please provide your personal code.";
+"idenfy_eid_session_personal_code_verify_description_part_2" = "and phone number";
 "idenfy_eid_session_personal_code_verify_code_description_part_1" = "To finish the identity verification, open the";
 "idenfy_eid_session_personal_code_verify_code_description_part_2" = "app and confirm the verification code.";
 "idenfy_eid_session_personal_code_verify_input_hint" = "Personal code";
@@ -749,3 +761,15 @@
 "idenfy_eid_session_personal_code_verify_error_message" = "User with this personal code was not found.";
 "idenfy_eid_session_personal_code_verify_continue_button_title" = "CONTINUE";
 "idenfy_eid_session_personal_code_verify_continue_button_cancel_title" = "CANCEL";
+"idenfy_eid_session_multiple_inputs_description" = "To verify your identity, please enter your details exactly as they appear on your National ID.";
+"idenfy_eid_session_multiple_inputs_given_name_hint" = "Given name*";
+"idenfy_eid_session_multiple_inputs_middle_name_hint" = "Middle name";
+"idenfy_eid_session_multiple_inputs_family_name_hint" = "Family name*";
+"idenfy_eid_session_multiple_inputs_suffix_hint" = "Suffix";
+"idenfy_eid_session_multiple_inputs_date_of_birth_hint" = "Date of birth*";
+"idenfy_eid_session_upload_description" = "To verify your identity, please upload the QR code from your National ID Card.";
+"idenfy_eid_session_upload_qr_code_label" = "Upload QR code";
+"idenfy_eid_session_upload_max_file_size" = "Max file size 10MB. PNG, JPG, HEIF files";
+"idenfy_eid_session_upload_qr_code_error" = "Unable to read the QR code. Check the image and try again";
+"idenfy_eid_session_upload_qr_code_read_failed" = "Unable to read the QR code. Check the image and try again.";
+"idenfy_eid_session_upload_click_to_upload" = "Click to upload";
