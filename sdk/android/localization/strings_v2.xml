@@ -139,6 +139,14 @@
     <string name="idenfy_documents_selection_view_list_item_document_type_moje_id_cz_title_v2">MojeID</string>
     <string name="idenfy_documents_selection_view_list_item_document_type_moje_id_pl_title_v2">MojeID</string>
     <string name="idenfy_documents_selection_view_list_item_document_type_yoti_id_title_v2">Yoti ID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_freja_title_v2">Freja</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_handy_signatur_title_v2">Handy Signatur</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_mobile_id_title_v2">Mobile ID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_google_wallet_title_v2">Google Wallet</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_idin_title_v2">iDIN</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_digi_locker_title_v2">DigiLocker</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_e_phil_id_title_v2">ePhilID</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_phil_sys_title_v2">PhilSys</string>
 
     <!--Idenfy Camera OnBoarding View V2-->
     <string name="idenfy_camera_onboarding_view_continue_button_title_v2">CONTINUE</string>
@@ -651,11 +659,14 @@
     <!-- EID Session View-->
     <string name="idenfy_eid_session_title_part_1">Scan QR code for</string>
     <string name="idenfy_eid_session_title_part_2">verification</string>
+    <string name="idenfy_eid_session_title_unsupported">Unsupported device</string>
     <string name="idenfy_eid_session_description_part_1">Scan this QR code with your phone\'s camera. It will open a secure link to continue your</string>
     <string name="idenfy_eid_session_description_part_2">verification.</string>
+    <string name="idenfy_eid_session_description_unsupported">This device does not support the selected verification method. Please choose an alternative verification method or use a different device.</string>
     <string name="idenfy_eid_session_button_title">CONTINUE ON THIS DEVICE</string>
     <string name="idenfy_eid_session_personal_code_verify_title">Verify with</string>
     <string name="idenfy_eid_session_personal_code_verify_description">To verify your identity, please provide your personal code.</string>
+    <string name="idenfy_eid_session_personal_code_verify_description_part_2">and phone number</string>
     <string name="idenfy_eid_session_personal_code_verify_code_description_part_1">To finish the identity verification, open the</string>
     <string name="idenfy_eid_session_personal_code_verify_code_description_part_2">app and confirm the verification code.</string>
     <string name="idenfy_eid_session_personal_code_verify_input_hint">Personal code</string>
@@ -664,4 +675,15 @@
     <string name="idenfy_eid_session_personal_code_verify_error_message">User with this personal code was not found.</string>
     <string name="idenfy_eid_session_personal_code_verify_continue_button_title">CONTINUE</string>
     <string name="idenfy_eid_session_personal_code_verify_continue_button_cancel_title">CANCEL</string>
+    <string name="idenfy_eid_session_multiple_inputs_description">To verify your identity, please enter your details exactly as they appear on your National ID.</string>
+    <string name="idenfy_eid_session_multiple_inputs_given_name_hint">Given name*</string>
+    <string name="idenfy_eid_session_multiple_inputs_middle_name_hint">Middle name</string>
+    <string name="idenfy_eid_session_multiple_inputs_family_name_hint">Family name*</string>
+    <string name="idenfy_eid_session_multiple_inputs_suffix_hint">Suffix</string>
+    <string name="idenfy_eid_session_multiple_inputs_date_of_birth_hint">Date of birth*</string>
+    <string name="idenfy_eid_session_upload_description">To verify your identity, please upload the QR code from your National ID Card.</string>
+    <string name="idenfy_eid_session_upload_qr_code_label">Upload QR code</string>
+    <string name="idenfy_eid_session_upload_file_size_hint">Max file size 10MB. PNG, JPG, HEIF files</string>
+    <string name="idenfy_eid_session_upload_click_to_upload">Click to upload</string>
+    <string name="idenfy_eid_session_upload_qr_code_read_failed">Unable to read the QR code. Check the image and try again.</string>
 </resources>
