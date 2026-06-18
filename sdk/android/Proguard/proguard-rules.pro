@@ -104,7 +104,7 @@
 
 #FaceTec
 -dontwarn com.facetec.sdk.**
--keep class com.facetec.sdk.** { *; }
+-keep,includecode,includedescriptorclasses class com.facetec.sdk.** { *; }
 
 #Moshi
 -keepclassmembers class ** {
@@ -124,17 +124,13 @@
 -keep class com.idenfy.idenfySdk.nfcreading.models.** { *; }
 -keepclassmembers class com.idenfy.idenfySdk.nfcreading.models.** { *; }
 
--keepnames @kotlin.Metadata class com.idenfy.idenfySdk.liveness.idcheck.data.models.**
--keep class com.idenfy.idenfySdk.liveness.idcheck.data.models.** { *; }
--keepclassmembers class com.idenfy.idenfySdk.liveness.idcheck.data.models.** { *; }
-
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.core.domain.models.**
 -keep class com.idenfy.idenfySdk.core.domain.models.** { *; }
 -keepclassmembers class com.idenfy.idenfySdk.core.domain.models.** { *; }
 
--keepnames @kotlin.Metadata class com.idenfy.idenfySdk.liveness.data.models.**
--keep class com.idenfy.idenfySdk.liveness.data.models.** { *; }
--keepclassmembers class com.idenfy.idenfySdk.liveness.data.models.** { *; }
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.liveness.domain.model.**
+-keep class com.idenfy.idenfySdk.liveness.domain.model.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.liveness.domain.model.** { *; }
 
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.SdkResponseModels.**
 -keep class com.idenfy.idenfySdk.SdkResponseModels.** { *; }
@@ -300,10 +296,6 @@
     public protected *;
 }
 
--keep public class com.idenfy.idenfySdk.liveness.idcheck.domain.utils.ProcessingDelegate {
-    public protected *;
-}
-
 -keep public class com.idenfy.idenfySdk.di.NFCDIProvider {
     public protected *;
 }
@@ -319,3 +311,22 @@
 
 -keep class com.idenfy.idenfySdk.camerasession.documentscamerasession.documentangledetection.utils.OpenCVInitializer { *; }
 -keep class com.idenfy.idenfySdk.camerasession.documentscamerasession.documentangledetection.utils.ScanUtils { *; }
+
+#Tensorflow
+-keep class org.tensorflow.lite.annotations.UsedByReflection
+-keep @org.tensorflow.lite.annotations.UsedByReflection class *
+-keepclassmembers class * {
+    @org.tensorflow.lite.annotations.UsedByReflection *;
+}
+
+# TensorFlow Lite rules
+-keep class org.tensorflow.** { *; }
+-dontwarn org.tensorflow.**
+
+# TFLite Support Library
+-keep class org.tensorflow.lite.support.** { *; }
+-dontwarn org.tensorflow.lite.support.**
+
+# Prevent stripping TensorFlow Lite delegate classes if using GPU or NNAPI delegates
+-keep class org.tensorflow.lite.gpu.** { *; }
+-keep class org.tensorflow.lite.nnapi.** { *; }
