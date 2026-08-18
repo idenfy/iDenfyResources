@@ -266,8 +266,6 @@
 -keep class com.idenfy.idenfySdk.nfcreading.utils.ConstsNFCReading { *; }
 -keepclassmembers class com.idenfy.idenfySdk.nfcreading.utils.ConstsNFCReading { *; }
 
--keep public class androidx.compose.*.**{*;}
-
 #IDLive
 -keep class net.idrnd.** { *; }
 
