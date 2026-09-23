@@ -86,6 +86,7 @@
     <string name="idenfy_country_and_document_selection_view_information_description_auto_detection_flow">To ensure the best verification results, please confirm your document details manually.</string>
     <string name="idenfy_country_and_document_selection_view_country_selection_hint">Country</string>
     <string name="idenfy_country_and_document_selection_view_verification_method_section_title">Verification method</string>
+    <string name="idenfy_country_and_document_selection_view_recommended_banner">RECOMMENDED</string>
     <string name="idenfy_country_and_document_selection_view_physical_document_section_title">or use a physical document</string>
     <string name="idenfy_country_and_document_selection_view_continue_button_title">CONTINUE</string>
 
@@ -147,6 +148,7 @@
     <string name="idenfy_documents_selection_view_list_item_document_type_digi_locker_title_v2">DigiLocker</string>
     <string name="idenfy_documents_selection_view_list_item_document_type_e_phil_id_title_v2">ePhilID</string>
     <string name="idenfy_documents_selection_view_list_item_document_type_phil_sys_title_v2">PhilSys</string>
+    <string name="idenfy_documents_selection_view_list_item_document_type_digital_cnh_title_v2">Digital CNH</string>
 
     <!--Idenfy Camera OnBoarding View V2-->
     <string name="idenfy_camera_onboarding_view_continue_button_title_v2">CONTINUE</string>
@@ -686,4 +688,11 @@
     <string name="idenfy_eid_session_upload_file_size_hint">Max file size 10MB. PNG, JPG, HEIF files</string>
     <string name="idenfy_eid_session_upload_click_to_upload">Click to upload</string>
     <string name="idenfy_eid_session_upload_qr_code_read_failed">Unable to read the QR code. Check the image and try again.</string>
+
+
+    <!--EID Session CNH Upload-->
+    <string name="idenfy_eid_session_cnh_upload_description">To verify your identity, please provide your CPF number and upload a QR code.</string>
+    <string name="idenfy_eid_session_cnh_upload_qr_code_instruction">Export a PDF from the Carteira Digital de Trânsito app, or take a picture of the QR code on your digital or physical CNH.</string>
+    <string name="idenfy_eid_session_cnh_cpf_input_hint">CPF*</string>
+    <string name="idenfy_eid_session_cnh_cpf_input_error_message">Please enter a valid CPF number!</string>
 </resources>
