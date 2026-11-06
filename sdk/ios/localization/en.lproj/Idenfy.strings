@@ -4,7 +4,7 @@
 "idenfy_splash_screen_description_v2" = "powered by";
 
 /*Idenfy Privacy Policy View V2*/
-"idenfy_privacy_policy_title_v2" = "Verify your identity — securely";
+"idenfy_privacy_policy_title_v2" = "Verify your identity – securely";
 "idenfy_privacy_policy_description_v2" = "Protecting your account and preventing fraud through secure verification.";
 "idenfy_privacy_policy_agree_button_title_v2" = "AGREE & CONTINUE SECURELY";
 "idenfy_privacy_policy_text_part_1" = "By clicking below, you agree to the service provider „iDenfy“";
@@ -147,6 +147,7 @@
 "idenfy_documents_selection_view_list_item_document_type_e_phil_id_title_v2" = "ePhilID";
 "idenfy_documents_selection_view_list_item_document_type_phil_sys_title_v2" = "PhilSys";
 "idenfy_documents_selection_view_list_item_document_type_digital_cnh_title_v2" = "Digital CNH";
+"idenfy_documents_selection_view_list_item_document_type_cpf_check_title_v2" = "CPF Check";
 
 /*Idenfy Camera OnBoarding View V2*/
 "idenfy_camera_onboarding_view_continue_button_title_v2" = "CONTINUE";
@@ -402,8 +403,8 @@
 /*Idenfy Identification Results View V2*/
 "idenfy_identification_results_identification_status_loading_title_v2" = "Analysing your verification…";
 "idenfy_identification_results_identification_status_loading_description_v2" = "Please wait while we set things up for you!";
-"idenfy_identification_results_identification_status_error_title_v2" = "Identification failed";
-"idenfy_identification_results_identification_status_suspected_title_v2" = "Verification may be further investigated";
+"idenfy_identification_results_identification_status_error_title_v2" = "Identity verification failed";
+"idenfy_identification_results_identification_status_suspected_title_v2" = "Your verification requires additional review";
 "idenfy_identification_results_step_front_document_type_id_card_title_v2" = "Front of identity card";
 "idenfy_identification_results_step_back_document_type_id_card_title_v2" = "Back of identity card";
 "idenfy_identification_results_step_passport_cover_title_v2" = "Front of passport cover";
@@ -450,38 +451,17 @@
 "idenfy_identification_results_step_front_document_type_work_permit_title_v2" = "Front of work permit";
 "idenfy_identification_results_step_back_document_type_work_permit_title_v2" = "Back of work permit";
 "idenfy_identification_results_step_face" = "Face photo";
+"idenfy_identification_results_step_bank_card_title_v2" = "Bank card";
+"idenfy_identification_results_step_bank_card_back_title_v2" = "Back of bank card";
 "idenfy_identification_results_retake_button_title_v2" = "TRY AGAIN";
 "idenfy_identification_results_error_continue_button_title_v2" = "CONTINUE";
 "idenfy_identification_results_mrz_not_found_dialog_title_v2" = "Please make sure your document has machine-readable zone";
 "idenfy_identification_results_mrz_not_found_dialog_description_v2" = "Machine-readable zone (MRZ) usually consists of 2 (passport) or 3 (ID card) lines of symbols. MRZ example is presented in the image bellow, marked by a red rectangle.";
 "idenfy_identification_results_mrz_not_found_back_button_title_v2" = "GO BACK";
 "idenfy_identification_results_mrz_not_found_continue_button_title_v2" = "I AM SURE";
-"idenfy_identification_results_doc_not_found_dialog_description_part_1_v2" = "Document not found. Make sure you are showing";
-"idenfy_identification_results_doc_not_found_dialog_description_part_3_v2" = "and document issue country is";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_passport_v2" = "PASSPORT";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_id_card_v2" = "ID CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_residence_permit_v2" = "RESIDENCE PERMIT";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_driver_license_v2" = "DRIVER\'S LICENSE";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_document_v2" = "DOCUMENT";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_visa_v2" = "VISA";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_border_crossing_v2" = "BORDER CROSSING CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_asylum_v2" = "ASYLUM RESIDENCE PERMIT";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_national_passport_v2" = "NATIONAL PASSPORT";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_provisional_driver_license_v2" = "PROVISIONAL DRIVER LICENSE";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_voter_card_v2" = "VOTER CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_old_id_card_v2" = "OLD ID CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_travel_card_v2" = "TRAVEL CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_photo_card_v2" = "PHOTO CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_military_card_v2" = "MILITARY (VETERAN) CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_proof_of_age_card_v2" = "PROOF OF AGE CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_diplomatic_id_card_v2" = "DIPLOMATIC ID";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_pan_card_title_v2" = "PAN CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_aadhaar_card_title_v2" = "Aadhaar CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_address_card_title_v2" = "ADDRESS CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_social_security_card_title_v2" = "SOCIAL SECURITY CARD";
-"idenfy_identification_results_doc_not_found_dialog_description_part_2_work_permit_v2" = "WORK PERMIT";
-"idenfy_identification_results_doc_not_found_dialog_description_country_part_v2" = "Make sure your document issue country is";
-"idenfy_identification_results_mismatch_dialog_tags_description" = "The following discrepancies may have occurred:";
+"idenfy_identification_results_country_mismatch_dialog_title_v2" = "Check the selected country";
+"idenfy_identification_results_country_mismatch_dialog_description_v2" = "Make sure you selected the country that issued your document.";
+"idenfy_identification_results_mismatch_dialog_tags_description" = "Additionally:";
 "idenfy_identification_results_mismatch_dialog_continue_button_title_v2" = "CONTINUE";
 "idenfy_identification_results_mismatch_dialog_continue_disabled_button_title_v2" = "CONTINUE IN **x** …";
 
@@ -613,11 +593,14 @@
 
 /*Idenfy Liveness Failed Alert*/
 "idenfy_alert_positive_button_liveness_default_error" = "PROCEED";
-"idenfy_alert_title_liveness_default_error" = "INFORMATION";
+"idenfy_alert_title_liveness_default_error" = "Liveness check was unsuccessful";
 "idenfy_alert_message_liveness_default_error" = "Liveness check failed, please try again.";
-"idenfy_alert_message_liveness_already_uploaded" = "Liveness check has already been completed.";
+"idenfy_alert_title_liveness_already_uploaded" = "Photo already uploaded";
+"idenfy_alert_message_liveness_already_uploaded" = "This file has already been uploaded. Continue to the next step.";
 "idenfy_alert_message_liveness_face_timeout_error" = "Face liveness check time is up. Please try again.";
-"idenfy_alert_message_liveness_locked_out_error" = "Liveness check temporarily unavailable. Please restart your device and try again.";
+"idenfy_alert_title_liveness_locked_out_error" = "Time is up";
+"idenfy_alert_message_liveness_locked_out_error" = "Face verification time is up. Please try again.";
+"idenfy_alert_button_liveness_cancel_verification" = "Cancel verification";
 
 /*Document Analysis Alert*/
 "idenfy_alert_positive_button_document_analysis_information" = "Continue";
@@ -781,5 +764,72 @@
 "idenfy_eid_session_cnh_upload_qr_code_instruction" = "Export a PDF from the Carteira Digital de Trânsito app, or take a picture of the QR code on your digital or physical CNH.";
 "idenfy_eid_session_cnh_cpf_input_hint" = "CPF*";
 "idenfy_eid_session_cnh_cpf_input_error_message" = "Please enter a valid CPF number!";
+"idenfy_eid_session_cpf_check_description" = "To verify your identity, please provide your CPF number and date of birth.";
 
+/*Idenfy Bank Card Verification*/
+"idenfy_bank_card_onboarding_title" = "Verify your bank card";
+"idenfy_bank_card_onboarding_description" = "Choose how to confirm your card ownership.";
+"idenfy_bank_card_onboarding_capture_title" = "Capture with camera";
+"idenfy_bank_card_onboarding_capture_description" = "Use your camera to capture the card";
+"idenfy_bank_card_onboarding_upload_title" = "Upload a PDF";
+"idenfy_bank_card_onboarding_upload_description" = "Upload a card confirmation document";
+"idenfy_bank_card_onboarding_privacy_note" = "Only your card number and name are read – CVV is never captured or stored.";
+"idenfy_bank_card_camera_title" = "Capture your card";
+"idenfy_bank_card_camera_description" = "Position your card within the frame and hold steady.";
+"idenfy_bank_card_camera_back_title" = "Capture the other side";
+"idenfy_bank_card_camera_back_description" = "Position your card within the frame and hold steady.";
+"idenfy_bank_card_inspect_title" = "Inspect captured card";
+"idenfy_bank_card_inspect_description" = "Make sure the full card is visible and the image is clear.";
+"idenfy_bank_card_inspect_question_1" = "Is the card fully within the frame?";
+"idenfy_bank_card_inspect_question_2" = "Are there no fingers or objects covering the card?";
+"idenfy_bank_card_flip_title" = "Flip your card";
+"idenfy_bank_card_flip_description" = "Some details are missing. Please capture the other side of your card.";
+"idenfy_bank_card_flip_button" = "CAPTURE THE OTHER SIDE";
+"idenfy_bank_card_upload_title" = "Upload a card confirmation";
+"idenfy_bank_card_upload_description" = "Make sure the document clearly shows your card number and cardholder name.";
+"idenfy_bank_card_upload_click" = "Click to upload";
+"idenfy_bank_card_upload_file_hint" = "Max file size 5MB. PDF files";
+"idenfy_bank_card_upload_button" = "UPLOAD A FILE";
+"idenfy_bank_card_upload_review_title" = "Review uploaded document";
+"idenfy_bank_card_upload_review_question_1" = "Is the card fully within the frame?";
+"idenfy_bank_card_upload_review_question_2" = "Are there no fingers or objects covering the card?";
+"idenfy_bank_card_upload_review_question_3" = "Is all text on the card legible?";
+"idenfy_bank_card_upload_review_confirm" = "YES, CONTINUE";
+"idenfy_bank_card_upload_pdf_review_question_1" = "Does the document show your card number?";
+"idenfy_bank_card_upload_pdf_review_question_2" = "Is the cardholder name clearly visible?";
+"idenfy_bank_card_upload_pdf_review_question_3" = "Is this the correct document?";
+"idenfy_bank_card_selection_title" = "Which card are you verifying?";
+"idenfy_bank_card_selection_description" = "Multiple cards detected in your document. Select the card you are verifying.";
+"idenfy_bank_card_selection_hint" = "Choose bank card";
+"idenfy_bank_card_selection_verify_button" = "VERIFY";
+"idenfy_bank_card_verification_unavailable" = "Card verification is temporarily unavailable. Try again or come back later.";
+"idenfy_bank_card_verification_unavailable_title" = "Verification temporarily unavailable";
 
+"idenfy_bank_card_standalone_privacy_policy_title" = "Verify your bank card";
+"idenfy_bank_card_standalone_privacy_policy_description" = "Your identity is already verified. Confirm your card belongs to you.";
+"idenfy_bank_card_standalone_privacy_policy_item_cvv" = "CVV is never stored";
+"idenfy_bank_card_standalone_privacy_policy_item_card_number" = "Full card number is not stored";
+"idenfy_bank_card_standalone_privacy_policy_item_ownership" = "Used only to confirm card ownership";
+"idenfy_bank_card_standalone_privacy_policy_item_compliance" = "Certified to ISO 27001, SOC 2, and PCI DSS. Compliant with GDPR and CCPA.";
+"idenfy_bank_card_standalone_privacy_policy_consent_part_1" = "By clicking below, you agree to the service provider iDenfy";
+"idenfy_bank_card_standalone_privacy_policy_consent_part_2" = "Privacy Policy";
+"idenfy_bank_card_standalone_privacy_policy_consent_part_3" = "and consent to the processing of your card data for this verification.";
+"idenfy_bank_card_standalone_privacy_policy_button" = "AGREE & CONTINUE";
+"idenfy_bank_card_standalone_results_success_title" = "Card verified successfully";
+"idenfy_bank_card_standalone_results_success_description" = "You're all set. Your card ownership has been confirmed.";
+"idenfy_bank_card_standalone_results_failed_title" = "Card verification unsuccessful";
+"idenfy_bank_card_standalone_results_failed_description" = "We couldn't confirm your card details. Contact the service that requested this verification for next steps.";
+"idenfy_bank_card_standalone_results_continue_button" = "CONTINUE";
+"idenfy_bank_card_upload_file_hint_noun" = "file";
+"idenfy_bank_card_liveness_failed_title" = "Card not confirmed";
+"idenfy_bank_card_liveness_failed" = "We couldn't confirm your card is genuine. Take a photo of your physical card.";
+"idenfy_bank_card_file_rejected_title" = "File not accepted";
+"idenfy_bank_card_no_card_details_title" = "No card details found";
+"idenfy_bank_card_no_card_details" = "This photo doesn't show card details. Take a photo of the side of your card that shows the card number.";
+"idenfy_bank_card_non_match_retry" = "We couldn't confirm your card details. Contact the service that requested this verification for next steps.";
+"idenfy_bank_card_expired_title" = "This card has expired";
+"idenfy_bank_card_expired_capture_message" = "Use a card that is still valid to continue.";
+"idenfy_bank_card_expired_upload_message" = "Upload a statement for a card that is still valid.";
+"idenfy_bank_card_expired_capture_cta" = "Use a different card";
+"idenfy_bank_card_expired_upload_cta" = "Upload a different statement";
+"idenfy_bank_card_upload_review_retake_button_title_v2" = "NO, UPLOAD AGAIN";
