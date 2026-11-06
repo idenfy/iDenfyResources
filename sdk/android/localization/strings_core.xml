@@ -75,11 +75,16 @@
 
     <!--Idenfy Liveness Failed Alert-->
     <string name="idenfy_alert_positive_button_liveness_default_error">PROCEED</string>
-    <string name="idenfy_alert_title_liveness_default_error">INFORMATION</string>
+    <string name="idenfy_alert_title_liveness_default_error">Liveness check was unsuccessful</string>
     <string name="idenfy_alert_message_liveness_default_error">Liveness check failed, please try again.</string>
     <string name="idenfy_alert_message_liveness_face_timeout_error">Face liveness check time is up. Please try again.</string>
-    <string name="idenfy_alert_message_liveness_locked_out_error">Liveness check temporarily unavailable. Please restart your device and try again.</string>
-    <string name="idenfy_alert_message_liveness_already_uploaded">Liveness check has already been completed.</string>
+    <string name="idenfy_alert_message_liveness_locked_out_error">Face verification time is up. Please try again.</string>
+    <string name="idenfy_alert_title_liveness_locked_out_error">Time is up</string>
+    <string name="idenfy_alert_button_liveness_cancel_verification">Cancel verification</string>
+    <string name="idenfy_alert_title_liveness_already_uploaded">Photo already uploaded</string>
+    <string name="idenfy_alert_message_liveness_already_uploaded">This file has already been uploaded. Continue to the next step.</string>
+    <string name="idenfy_identification_results_country_mismatch_dialog_title_v2">Check the selected country</string>
+    <string name="idenfy_identification_results_country_mismatch_dialog_description_v2">Make sure you selected the country that issued your document.</string>
 
     <!--Idenfy Camera Failed Alert-->
     <string name="idenfy_alert_camera_failure_title">An issue occurred</string>

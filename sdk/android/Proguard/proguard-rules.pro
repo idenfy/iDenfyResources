@@ -194,6 +194,18 @@
 -keep class com.idenfy.idenfysdk.idenfycore.networking.models.** { *; }
 -keepclassmembers class com.idenfy.idenfysdk.idenfycore.networking.models.** { *; }
 
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.eidsesson.domain.models.**
+-keep class com.idenfy.idenfySdk.features.eidsesson.domain.models.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.features.eidsesson.domain.models.** { *; }
+
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.emailverification.domain.models.**
+-keep class com.idenfy.idenfySdk.features.emailverification.domain.models.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.features.emailverification.domain.models.** { *; }
+
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.smsverification.domain.models.**
+-keep class com.idenfy.idenfySdk.features.smsverification.domain.models.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.features.smsverification.domain.models.** { *; }
+
 -keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.onboarding.ui.state.**
 -keep class com.idenfy.idenfySdk.features.onboarding.ui.state.** { *; }
 -keepclassmembers class com.idenfy.idenfySdk.features.onboarding.ui.state.** { *; }
@@ -328,3 +340,13 @@
 # Prevent stripping TensorFlow Lite delegate classes if using GPU or NNAPI delegates
 -keep class org.tensorflow.lite.gpu.** { *; }
 -keep class org.tensorflow.lite.nnapi.** { *; }
+
+# Bank card verification WebView bridge — JS calls NativeBridge.onSurfaceEvent()
+-keepclassmembers class com.idenfy.idenfySdk.features.bankcardverification.ui.webview.BankCardSurfaceManager$NativeBridge {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+# Bank card verification models (Moshi deserialization)
+-keepnames @kotlin.Metadata class com.idenfy.idenfySdk.features.bankcardverification.domain.models.**
+-keep class com.idenfy.idenfySdk.features.bankcardverification.domain.models.** { *; }
+-keepclassmembers class com.idenfy.idenfySdk.features.bankcardverification.domain.models.** { *; }
